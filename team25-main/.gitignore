@@ -1,0 +1,18 @@
+# backup files
+*~
+*.bak
+
+# macOS metadata
+.DS_Store
+._*
+
+# Python byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/

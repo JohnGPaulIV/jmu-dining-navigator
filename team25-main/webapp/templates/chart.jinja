@@ -1,0 +1,73 @@
+{% extends "appbuilder/base.html" %}
+
+{% block head_css %}
+{{ super() }}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container" style="margin-bottom: 40px;">
+
+  <h2 style="margin-top: 20px;">
+    <i class="fa fa-chart-area" style="color: #450084;"></i>
+    Live Dining Hall Population
+  </h2>
+
+  <p class="text-muted" style="margin-bottom: 25px;">
+    Showing the most recent capacity update for each dining hall.
+  </p>
+
+  {% if all_current_pop %}
+
+    {% for hall in all_current_pop %}
+      {% set location = appbuilder.session.query(Location).get(hall.location_id) %}
+
+      <!-- Header Card for Each Dining Hall -->
+      <div class="jumbotron header-flex"
+           style="background-color: white !important; border-bottom: 4px solid #CBB677; margin-top: 30px;">
+
+          <div class="header-text">
+              <h3 style="margin-top: 0;">
+                  <i class="fa fa-utensils" style="color: #450084;"></i>
+                  {{ location.hall_name }}
+              </h3>
+
+              <p class="lead" style="font-size: 16px; margin-bottom: 5px;">
+                  {{ location.address }}
+              </p>
+
+              <p class="text-muted">
+                  Last updated: {{ hall.timestamp }}
+              </p>
+
+              <h4 style="margin-top: 10px;">
+                  Current Population:
+                  <span style="color: #450084; font-weight: bold;">
+                      {{ hall.current_capacity }}
+                  </span>
+                  /
+                  {{ location.capacity_limit }}
+              </h4>
+          </div>
+
+          {% set img_slug = (location.image_name if location.image_name else (location.hall_name or 'location')|lower|replace(' ', '-')) %}
+          {% set img_file = 'images/' ~ img_slug ~ '.jpg' %}
+
+          <img src="{{ url_for('static', filename=img_file) }}"
+              alt="{{ location.hall_name }}"
+              class="place-image place-header-image"
+              style="object-fit: cover;">
+      </div>
+
+    {% endfor %}
+
+  {% else %}
+    <div class="alert alert-warning">
+      <i class="fa fa-exclamation-circle"></i> No population data available.
+    </div>
+  {% endif %}
+
+</div>
+
+{% endblock %}

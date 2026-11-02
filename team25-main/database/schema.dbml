@@ -1,0 +1,128 @@
+Table location {
+  note: "Contains dining hall details such as name, location, and capacity"
+  location_id int [PK]
+  manager_id int [ref: > user.user_id]
+  hall_name text
+  address text
+  directions text
+  description text
+  payment_method enum
+  capacity_limit int
+
+}
+
+enum payment_method {
+  card
+  cash
+  dining_dollars
+  flex
+  swipe
+  duke_deal
+}
+
+Table location_hours {
+  location_id int [PK]
+  day date [PK]
+  open_time time
+  close_time time
+}
+
+Table menu_item {
+  note: "Stores menu items available across dining halls"
+  menu_item_id int [PK]
+  item_name text
+  description text
+  duke_deal bool
+}
+
+Table menu {
+  note: "Associates menu items with dining halls and their availability"
+  location_id int [PK]
+  menu_item_id int
+  date date
+  meal_type enum
+}
+
+Table dietary_restriction {
+  note: "Defines dietary restrictions such as vegetarian, vegan, gluten-free"
+  dietary_restriction_id int [PK]
+  name text
+  description text
+}
+
+Table user {
+  note: "Contains user information including contact, balance, and role"
+  user_id int [pk]
+  name text
+  email text
+  phone int
+  dietary_restriction text
+  dining_balance float
+}
+
+Table user_dietary_restriction {
+  note: "Maps users to their dietary restrictions"
+  user_id int [PK]
+  dietary_restriction_id int [PK]
+
+}
+
+Table meal_plan {
+  note: "Describes a meal plan’s attributes such as swipe allowance"
+  plan_id INT [PK]
+  swipes INT
+  meal_plan TEXT
+}
+
+Table user_meal_plan {
+  note: "Associates users with their meal plans"
+  user_id int [PK]
+  plan_id int [PK]
+}
+
+enum meal_type {
+  breakfast
+  lunch
+  dinner
+}
+
+Table schedule {
+  location_id int [PK]
+  date date [PK]
+  meal_type enum [PK]
+  beg_time time
+  end_time time
+  notes text
+}
+
+Table ingredient {
+  ingredient_id int [PK]
+  ingredient_name text
+  dietary_restriction int
+}
+
+Table web_log {
+  location_id int [PK]
+  timestamp datetime [PK]
+  current_capacity int
+}
+
+Table menu_item_ingredient {
+  menu_item_id int [PK]
+  ingredient_id int [PK]
+}
+
+Ref: schedule.meal_type < menu.meal_type
+Ref: schedule.date > menu.date
+Ref: location.location_id < location_hours.location_id
+Ref: menu_item.menu_item_id - menu_item_ingredient.menu_item_id
+Ref: menu_item_ingredient.ingredient_id - ingredient.ingredient_id
+Ref: dietary_restriction.dietary_restriction_id - ingredient.dietary_restriction
+Ref: location.location_id - web_log.location_id
+Ref: location.location_id < schedule.location_id
+Ref: schedule.location_id < menu.location_id
+Ref: menu_item.menu_item_id > menu.menu_item_id
+Ref: user.user_id < user_dietary_restriction.user_id
+Ref: dietary_restriction.dietary_restriction_id - user_dietary_restriction.dietary_restriction_id
+Ref: user.user_id - user_meal_plan.user_id
+Ref: meal_plan.plan_id - user_meal_plan.user_id

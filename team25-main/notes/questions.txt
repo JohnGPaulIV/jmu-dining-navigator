@@ -1,0 +1,2 @@
+DBML:
+Should date in location_hours be related to date in schedule? Or is schedule only for the food?

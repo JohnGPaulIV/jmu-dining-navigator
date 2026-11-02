@@ -1,0 +1,102 @@
+{
+  "allergens": {
+    "39": {
+      "label": "Eggs",
+      "description": "Contains eggs or egg based product(s)"
+    },
+    "42": {
+      "label": "Fish",
+      "description": "Contains fish or fish based product(s)"
+    },
+    "45": {
+      "label": "Milk",
+      "description": "Contains milk or milk based product(s)"
+    },
+    "48": {
+      "label": "Peanuts",
+      "description": "Contains peanuts or peanut based product(s)"
+    },
+    "51": {
+      "label": "Sesame",
+      "description": "Contains sesame or sesame based product(s)"
+    },
+    "54": {
+      "label": "Shellfish",
+      "description": "Contains shellfish or shellfish based product(s)"
+    },
+    "57": {
+      "label": "Soy",
+      "description": "Contains soy or soy based product(s)"
+    },
+    "60": {
+      "label": "Tree Nuts",
+      "description": "Contains tree nuts or tree nut based product(s)"
+    },
+    "63": {
+      "label": "Wheat",
+      "description": "Contains wheat or wheat based product(s)"
+    }
+  },
+  "menuPreferences": {
+    "172": {
+      "description": "Carbs, Protein, Colors - Look for the color-coded Eat to Excel icon to help you make the right choices to fuel your performance.",
+      "label": "Eat to Excel",
+      "title": "Eat to Excel"
+    },
+    "606": {
+      "description": "",
+      "label": "Carbs",
+      "title": "Carbs"
+    },
+    "72": {
+      "description": "",
+      "label": "Colors",
+      "title": "Colors"
+    },
+    "612": {
+      "description": "",
+      "label": "Protein",
+      "title": "Protein"
+    },
+    "96": {
+      "description": "Contains no animal products of any kind.",
+      "label": "Vegan",
+      "title": "Vegan"
+    },
+    "99": {
+      "description": "Contains no meat, fish, or poultry.",
+      "label": "Vegetarian",
+      "title": "Vegetarian"
+    },
+    "609": {
+      "description": "Certified climate-friendly by the World Resources Institute. They have a low impact on the climate, making them a delicious way to help the planet.",
+      "label": "Coolfood Meal",
+      "title": "Coolfood Meal"
+    },
+    "90": {
+      "description": "A style of cooking & eating emphasizing healthy plants at the center of the plate. May contain a proportionally small quantity of animal protein.",
+      "label": "Plant Forward",
+      "title": "Plant Forward"
+    },
+    "78": {
+      "description": "Selections made with ingredients that do not contain gluten. IMPORTANT: Foods prepared without gluten containing ingredients may not be ‘gluten-free’ since recipes are prepared in open kitchens where cross-contact is possible. Aramark relies on its manufacturers’ ingredient listings in determining whether an ingredient contains gluten.",
+      "label": "Gluten Free",
+      "title": "Made Without Gluten"
+    },
+    "75": {
+      "description": "Lower in calories, saturated fat, and sodium AND at least one full serving of nutritionally dense ingredients like vegetables, lean protein, whole grains or fresh greens.",
+      "label": "Eat Well",
+      "title": "Eat Well"
+    },
+    "84": {
+      "description": "Whole grains are a leading ingredient in this item.",
+      "label": "Hearty Whole Grains",
+      "title": "Made with Whole Grains"
+    },
+    "133": {
+      "description": "",
+      "label": "Halal",
+      "title": "Halal"
+    }
+  }
+}

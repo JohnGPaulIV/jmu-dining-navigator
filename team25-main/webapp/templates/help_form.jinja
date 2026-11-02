@@ -1,0 +1,18 @@
+{% extends "appbuilder/base.html" %}
+
+{% block content %}
+<div class="container" style="font-size: larger; margin-bottom: 20px;">
+  <h2>Help & Support</h2>
+  <p>If you have any issues, please contact one of the following:</p>
+  <ul>
+      <li><strong>Dining Questions:</strong> dining@jmu.edu | 540-568-6751</li>
+      <li><strong>IT Help:</strong> helpdesk@jmu.edu | (540) 568-3555</li>
+      <li><strong>Security/Abuse:</strong> abuse@jmu.edu</li>
+  </ul>
+  <hr>
+  <h4>Submit a Ticket</h4>
+  <p>Use the form below to submit a question or complaint.</p>
+</div>
+
+{% include "appbuilder/general/model/form.html" %}
+{% endblock %}

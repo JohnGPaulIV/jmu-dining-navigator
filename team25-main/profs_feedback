@@ -1,0 +1,34 @@
+11/4/2025:
+In DBML, make things NOT NULL where necessary to make things easier.
+
+-----------------------------------------------------------------------------------------
+
+Change dining hall to restaurant
+
+Schedule: Date is a key, meal is a key, beg_time end_time, notes could be NULL, or fall break or something else
+
+current_capacity needs its own table to get information from
+
+meal_type enums, breakfast, lunch, dinner, brunch, all day
+
+weblog: dining hall, meal, time_id........ timestamp, take historical data of all current_capacities to make projections
+
+
+
+Table between schedule and menu item, relationship 
+
+Everything on website should be in table
+
+Add station for item?
+
+Change dining hall to locations!!!
+
+Make predictions
+
+is_manager derived attribute, put braces
+dietaryRestriction should only have one (), is now relationship to ingredents table
+Ingredents table
+
+Less 2 ways of getting somewhere, do more JOINs
+
+Menu item goes through schedule, to dining hall, which is connected to dining hall

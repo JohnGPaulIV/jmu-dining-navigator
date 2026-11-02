@@ -1,0 +1,89 @@
+{% extends "appbuilder/base.html" %}
+
+{% block head_css %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="hero-hero">
+  <div class="hero" style="background-image: url('{{ url_for('static', filename='E-Hall.jpg') }}');">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content container text-center">
+      <div class="hero-portrait">
+        <img src="{{ url_for('static', filename='E-Hall.jpg') }}" alt="E-Hall" class="hero-building">
+      </div>
+
+      <h1 class="hero-title">JMU Dining Navigator</h1>
+      <p class="lead hero-sub">Find more, eat more!</p>
+
+      <p>
+        {% if not current_user.is_authenticated %}
+          <a class="btn btn-primary btn-lg" href="{{ appbuilder.get_url_for_login }}" role="button">
+            <i class="fa fa-sign-in"></i> Log In
+          </a>
+        {% else %}
+          <a class="btn btn-primary btn-lg" href="/menutodaymodelview/list/" role="button">
+            <i class="fa fa-utensils"></i> View Menu
+          </a>
+          <a class="btn btn-primary btn-lg" href="/map/" role="button">
+            <i class="fa fa-map"></i> View Map
+          </a>
+          <a class="btn btn-primary btn-lg" href="/graph/" role="button">
+            <i class="fa fa-calendar"></i> View Capacity
+          </a>
+          <a class="btn btn-primary btn-lg" href="/about/" role="button">
+            <i class="fa fa-info-circle"></i> About
+          </a>
+        {% endif %}
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <!-- Feature 1 -->
+    <div class="col-md-4">
+      <div class="panel panel-default feature-panel">
+        <div class="panel-body text-center">
+          <i class="fa fa-utensils fa-4x feature-icon"></i>
+          <h3>Daily Menus</h3>
+          <p>See what's being served at D-Hall, E-Hall, and retail locations today.</p>
+          <a href="/menutodaymodelview/list/" class="btn btn-default">Browse Menus</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature 2 -->
+    <div class="col-md-4">
+      <div class="panel panel-default feature-panel">
+        <div class="panel-body text-center">
+          <i class="fa fa-users fa-4x feature-icon"></i>
+          <h3>Crowd Levels</h3>
+          <p>Avoid the lines by checking real-time capacity updates.</p>
+          <a href="/locationcapacitylatestmodelview/list/" class="btn btn-default">Check Crowds</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature 3 -->
+    <div class="col-md-4">
+      <div class="panel panel-default feature-panel">
+        <div class="panel-body text-center">
+          <i class="fa fa-clock-o fa-4x feature-icon"></i>
+          <h3>Open Now</h3>
+          <p>Find out which dining locations are currently open for business.</p>
+          <a href="/locationopennowmodelview/list/" class="btn btn-default">View Hours</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a href="/support/form" class="btn btn-primary btn-help-corner" title="Get Help">
+  <i class="fa fa-question"></i>
+</a>
+
+{% endblock %}

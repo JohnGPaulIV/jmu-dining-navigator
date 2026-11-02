@@ -1,0 +1,1932 @@
+{
+  "d-hall": {
+    "schedule": {
+      "Standard": {
+        "Breakfast": {
+          "Monday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Tuesday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Wednesday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Thursday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Friday": {
+            "open": "07:00",
+            "close": "11:00"
+          }
+        },
+        "Brunch": {
+          "Saturday": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "Sunday": {
+            "open": "10:00",
+            "close": "16:30"
+          }
+        },
+        "Lunch": {
+          "Monday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "16:30"
+          }
+        },
+        "Dinner": {
+          "Monday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Tuesday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Wednesday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Thursday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Friday": {
+            "open": "16:30",
+            "close": "20:00"
+          },
+          "Saturday": {
+            "open": "16:30",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "16:30",
+            "close": "20:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "Breakfast": {
+          "Monday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Tuesday": {
+            "open": "07:00",
+            "close": "11:00"
+          }
+        },
+        "Brunch": {
+          "Wednesday": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "Thursday": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "Friday": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "Saturday": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "Sunday": {
+            "open": "10:00",
+            "close": "16:30"
+          }
+        },
+        "Lunch": {
+          "Monday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "16:30"
+          }
+        },
+        "Dinner": {
+          "Monday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Tuesday": {
+            "open": "16:30",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "16:30",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "16:30",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "16:30",
+            "close": "20:00"
+          },
+          "Saturday": {
+            "open": "16:30",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "16:30",
+            "close": "20:00"
+          }
+        }
+      }
+    },
+    "address": "150 Bluestone Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43726",
+    "longitude": "-78.87193",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "e-hall": {
+    "schedule": {
+      "Standard": {
+        "Breakfast": {
+          "Monday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Tuesday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Wednesday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Thursday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Friday": {
+            "open": "07:00",
+            "close": "11:00"
+          }
+        },
+        "Brunch": {
+          "Saturday": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "Sunday": {
+            "open": "10:00",
+            "close": "16:30"
+          }
+        },
+        "Lunch": {
+          "Monday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "16:30"
+          }
+        },
+        "Dinner": {
+          "Monday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Tuesday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Wednesday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Thursday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Friday": {
+            "open": "16:30",
+            "close": "20:00"
+          },
+          "Saturday": {
+            "open": "16:30",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "16:30",
+            "close": "20:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "Breakfast": {
+          "Monday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Tuesday": {
+            "open": "07:00",
+            "close": "11:00"
+          }
+        },
+        "Lunch": {
+          "Monday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "16:30"
+          }
+        },
+        "Dinner": {
+          "Monday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Tuesday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Sunday": {
+            "open": "16:30",
+            "close": "20:00"
+          }
+        }
+      }
+    },
+    "address": "1681 Carrier Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43127",
+    "longitude": "-78.86154",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "bistro-1908": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        }
+      }
+    },
+    "address": "738 South Mason Street",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44017",
+    "longitude": "-78.87145",
+    "postal_code": "22807",
+    "state_province": "VA"
+  },
+  "blue-ridge-innovations": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        }
+      }
+    },
+    "address": "261 East Grace Street",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44006",
+    "longitude": "-78.86982",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "corner-bistro": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "18:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "18:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "18:00"
+          },
+          "Thursday": {
+            "open": "08:00",
+            "close": "18:00"
+          },
+          "Friday": {
+            "open": "08:00",
+            "close": "14:00"
+          },
+          "Saturday": {
+            "open": "08:00",
+            "close": "18:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "18:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "14:00"
+          }
+        }
+      }
+    },
+    "address": "395 South High Street",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44431",
+    "longitude": "-78.87732",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "festival-food-court": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        }
+      }
+    },
+    "address": "1301 Carrier Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43283",
+    "longitude": "-78.85937",
+    "postal_code": "22807",
+    "state_province": "VA"
+  },
+  "heirloom-pizza-in-dukes-dining": {
+    "schedule": {
+      "Standard": {
+        "Lunch": {
+          "Monday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        }
+      }
+    },
+    "address": "261 East Grace Street",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44006",
+    "longitude": "-78.86982",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "jmu-java-city-d-hall": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "16:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "16:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "16:00"
+          },
+          "Thursday": {
+            "open": "08:00",
+            "close": "16:00"
+          },
+          "Friday": {
+            "open": "08:00",
+            "close": "15:00"
+          },
+          "Saturday": {
+            "open": "11:00",
+            "close": "17:00"
+          },
+          "Sunday": {
+            "open": "11:00",
+            "close": "17:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "16:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        }
+      }
+    },
+    "address": "150 Bluestone Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43726",
+    "longitude": "-78.87193",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "market-64": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "08:00",
+            "close": "15:00"
+          },
+          "Saturday": {
+            "open": "12:00",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "15:00",
+            "close": "20:00"
+          }
+        }
+      }
+    },
+    "address": "150 Bluestone Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43726",
+    "longitude": "-78.87193",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "tacodillo": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "19:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "20:00"
+          }
+        }
+      }
+    },
+    "address": "261 East Grace Street",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44006",
+    "longitude": "-78.86982",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "burgers-fries": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Saturday": {
+            "open": "16:00",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "16:00",
+            "close": "20:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "16:00",
+            "close": "20:00"
+          }
+        }
+      }
+    },
+    "address": "1301 Carrier Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.4357",
+    "longitude": "-78.8596",
+    "postal_code": "22807",
+    "state_province": "VA"
+  },
+  "chick-fil-a-at-festival": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Saturday": {
+            "open": "11:00",
+            "close": "22:00"
+          }
+        }
+      }
+    },
+    "address": "1301 Carrier Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.4357",
+    "longitude": "-78.8596",
+    "postal_code": "22807",
+    "state_province": "VA"
+  },
+  "chick-fil-a-in-d-hall": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Saturday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Sunday": {
+            "open": "11:00",
+            "close": "22:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Saturday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "11:00",
+            "close": "20:00"
+          }
+        }
+      }
+    },
+    "address": "150 Bluestone Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43726",
+    "longitude": "-78.87193",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "dukes-scoops": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        }
+      }
+    },
+    "address": "150 Bluestone Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43726",
+    "longitude": "-78.87193",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "dunkin-donuts-in-ssc": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "15:00"
+          },
+          "Thursday": {
+            "open": "08:00",
+            "close": "15:00"
+          },
+          "Friday": {
+            "open": "08:00",
+            "close": "14:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        }
+      }
+    },
+    "address": "738 South Mason Street",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44017",
+    "longitude": "-78.87145",
+    "postal_code": "22807",
+    "state_province": "VA"
+  },
+  "freshens-fresh-food-studio-in-d-hall": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "21:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "21:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "21:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "21:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "21:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "21:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "21:00"
+          }
+        }
+      }
+    },
+    "address": "150 Bluestone Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43726",
+    "longitude": "-78.87193",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "freshens-urec": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "19:30"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "19:30"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "19:30"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "19:30"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "19:30"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "19:30"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "19:30"
+          }
+        }
+      }
+    },
+    "address": "701 Driver Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43356",
+    "longitude": "-78.86755",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "ignite": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Saturday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "11:00",
+            "close": "20:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "16:00",
+            "close": "20:00"
+          }
+        }
+      }
+    },
+    "address": "1301 Carrier Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.4357",
+    "longitude": "-78.8596",
+    "postal_code": "22807",
+    "state_province": "VA"
+  },
+  "jemmy-s-corner-market-and-pod": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "17:00",
+            "close": "00:00"
+          },
+          "Tuesday": {
+            "open": "17:00",
+            "close": "00:00"
+          },
+          "Wednesday": {
+            "open": "17:00",
+            "close": "00:00"
+          },
+          "Thursday": {
+            "open": "17:00",
+            "close": "00:00"
+          },
+          "Sunday": {
+            "open": "17:00",
+            "close": "00:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "17:00",
+            "close": "12:00"
+          },
+          "Tuesday": {
+            "open": "17:00",
+            "close": "12:00"
+          },
+          "Sunday": {
+            "open": "17:00",
+            "close": "12:00"
+          }
+        }
+      }
+    },
+    "address": "1681 Carrier Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.4386",
+    "longitude": "-78.8833",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "lakeside-cafe": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "07:30",
+            "close": "15:00"
+          },
+          "Thursday": {
+            "open": "07:30",
+            "close": "15:00"
+          },
+          "Friday": {
+            "open": "07:30",
+            "close": "15:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "15:00"
+          }
+        }
+      }
+    },
+    "address": "421 Bluestone Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": null,
+    "longitude": null,
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "madison-press": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Saturday": {
+            "open": "16:00",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "16:00",
+            "close": "20:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "16:00",
+            "close": "20:00"
+          }
+        }
+      }
+    },
+    "address": "1301 Carrier Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.4357",
+    "longitude": "-78.8596",
+    "postal_code": "22807",
+    "state_province": "VA"
+  },
+  "merge-coffee": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "17:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "17:00"
+          },
+          "Wednesday": {
+            "open": "07:30",
+            "close": "17:00"
+          },
+          "Thursday": {
+            "open": "07:30",
+            "close": "17:00"
+          },
+          "Friday": {
+            "open": "07:30",
+            "close": "17:00"
+          },
+          "Saturday": {
+            "open": "08:00",
+            "close": "13:00"
+          }
+        }
+      }
+    },
+    "address": "1681 Carrier Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.4386",
+    "longitude": "-78.8833",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "mr-chips": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "07:30",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "07:30",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "07:30",
+            "close": "19:00"
+          },
+          "Saturday": {
+            "open": "14:00",
+            "close": "19:00"
+          },
+          "Sunday": {
+            "open": "14:00",
+            "close": "19:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "14:00"
+          },
+          "Thursday": {
+            "open": "08:00",
+            "close": "14:00"
+          },
+          "Friday": {
+            "open": "08:00",
+            "close": "14:00"
+          },
+          "Saturday": {
+            "open": "14:00",
+            "close": "19:00"
+          },
+          "Sunday": {
+            "open": "14:00",
+            "close": "19:00"
+          }
+        }
+      }
+    },
+    "address": "451 Bluestone Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.4786",
+    "longitude": "-78.8594",
+    "postal_code": "22807",
+    "state_province": "VA"
+  },
+  "pod-in-forbes-center": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "Tuesday": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "Wednesday": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "Thursday": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "Friday": {
+            "open": "10:00",
+            "close": "16:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "Tuesday": {
+            "open": "10:00",
+            "close": "16:00"
+          }
+        }
+      }
+    },
+    "address": "147 Warsaw Avenue",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44017",
+    "longitude": "-78.87652",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "pod-in-jennings-hall": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "17:00",
+            "close": "00:00"
+          },
+          "Tuesday": {
+            "open": "17:00",
+            "close": "00:00"
+          },
+          "Wednesday": {
+            "open": "17:00",
+            "close": "00:00"
+          },
+          "Thursday": {
+            "open": "17:00",
+            "close": "00:00"
+          },
+          "Sunday": {
+            "open": "17:00",
+            "close": "00:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "17:00",
+            "close": "12:00"
+          },
+          "Tuesday": {
+            "open": "17:00",
+            "close": "12:00"
+          },
+          "Sunday": {
+            "open": "17:00",
+            "close": "12:00"
+          }
+        }
+      }
+    },
+    "address": null,
+    "city_locality": null,
+    "latitude": null,
+    "longitude": null,
+    "postal_code": null,
+    "state_province": null
+  },
+  "pod-in-king-hall": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "14:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "14:00"
+          },
+          "Wednesday": {
+            "open": "07:30",
+            "close": "14:00"
+          },
+          "Thursday": {
+            "open": "07:30",
+            "close": "14:00"
+          },
+          "Friday": {
+            "open": "07:30",
+            "close": "14:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "14:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "14:00"
+          }
+        }
+      }
+    },
+    "address": null,
+    "city_locality": null,
+    "latitude": null,
+    "longitude": null,
+    "postal_code": null,
+    "state_province": null
+  },
+  "panda-express": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        }
+      }
+    },
+    "address": "261 East Grace Street",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44006",
+    "longitude": "-78.86982",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "panera-in-dukes-dining": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "19:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "19:00"
+          },
+          "Wednesday": {
+            "open": "07:30",
+            "close": "19:00"
+          },
+          "Thursday": {
+            "open": "07:30",
+            "close": "19:00"
+          },
+          "Friday": {
+            "open": "07:30",
+            "close": "15:00"
+          },
+          "Saturday": {
+            "open": "09:00",
+            "close": "15:00"
+          },
+          "Sunday": {
+            "open": "09:00",
+            "close": "15:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "19:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "19:00"
+          },
+          "Wednesday": {
+            "open": "07:30",
+            "close": "15:00"
+          },
+          "Thursday": {
+            "open": "07:30",
+            "close": "15:00"
+          },
+          "Friday": {
+            "open": "07:30",
+            "close": "15:00"
+          }
+        }
+      }
+    },
+    "address": "261 East Grace Street",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44006",
+    "longitude": "-78.86982",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "starbucks-truck": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "14:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "14:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "14:00"
+          },
+          "Thursday": {
+            "open": "08:00",
+            "close": "14:00"
+          },
+          "Friday": {
+            "open": "08:00",
+            "close": "14:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "14:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "14:00"
+          }
+        }
+      }
+    },
+    "address": "1681 Carrier Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43127",
+    "longitude": "-78.86154",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "starbucks-at-rose-library": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "07:30",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "07:30",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "07:30",
+            "close": "17:00"
+          },
+          "Saturday": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "Sunday": {
+            "open": "10:00",
+            "close": "19:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "20:00"
+          }
+        }
+      }
+    },
+    "address": "1251 Carrier Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43402",
+    "longitude": "-78.85817",
+    "postal_code": "22807",
+    "state_province": "VA"
+  },
+  "steak-n-shake": {
+    "schedule": {
+      "Standard": {
+        "Overnight": {
+          "Monday": {
+            "open": "22:00",
+            "close": "12:00"
+          },
+          "Tuesday": {
+            "open": "22:00",
+            "close": "12:00"
+          },
+          "Wednesday": {
+            "open": "22:00",
+            "close": "12:00"
+          },
+          "Thursday": {
+            "open": "22:00",
+            "close": "12:00"
+          },
+          "Friday": {
+            "open": "22:00",
+            "close": "12:00"
+          },
+          "Saturday": {
+            "open": "22:00",
+            "close": "12:00"
+          },
+          "Sunday": {
+            "open": "22:00",
+            "close": "12:00"
+          }
+        },
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Friday": {
+            "open": "17:00",
+            "close": "22:00"
+          },
+          "Saturday": {
+            "open": "17:00",
+            "close": "22:00"
+          },
+          "Sunday": {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        }
+      }
+    },
+    "address": "150 Bluestone Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43726",
+    "longitude": "-78.87193",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "subway": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        }
+      }
+    },
+    "address": "50 West Grace Street",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44289",
+    "longitude": "-78.87574",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "tenders-love-chicken": {
+    "schedule": {
+      "Standard": {
+        "Lunch": {
+          "Monday": {
+            "open": "11:00",
+            "close": "16:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "16:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "16:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "16:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        },
+        "Dinner": {
+          "Monday": {
+            "open": "16:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "16:00",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "16:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "16:00",
+            "close": "20:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "20:00"
+          }
+        }
+      }
+    },
+    "address": "645 University Boulevard",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43044",
+    "longitude": "-78.85955",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "the-den-in-dukes-dining": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "00:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "00:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "00:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "00:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "21:00"
+          }
+        }
+      },
+      "Fall Break 2025": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "12:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "12:00"
+          }
+        }
+      }
+    },
+    "address": "261 East Grace Street",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44006",
+    "longitude": "-78.86982",
+    "postal_code": "22801",
+    "state_province": "VA"
+  }
+}

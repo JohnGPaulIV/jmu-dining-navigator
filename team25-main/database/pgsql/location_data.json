@@ -1,0 +1,933 @@
+{
+  "d-hall": {
+    "managers": {
+      "0": {
+        "first_name": "Holly",
+        "last_name": "Davis",
+        "email": "davishm@jmu.edu",
+        "phone": "(703) 463-8434"
+      }
+    },
+    "payment": [
+      "swipe",
+      "cash",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "D-Hall sits in the middle of campus and offers an all-you-care-to eat dining hall. Stay tuned to the BeInvolved app or @JMUDining on Insta to learn about upcoming events.",
+    "image_from": "32934f1c-de06-4881-a437-b7c9ae507ea1/IMG_0784.jpg",
+    "image_write": "GP/team25/webapp/images/d-hall.jpg",
+    "image_id": "32934f1c-de06-4881-a437-b7c9ae507ea1",
+    "image_name": "IMG_0784.jpg",
+    "stations": {
+      "2901": "Fire Wok",
+      "2928": "Noodle Bowl",
+      "2913": "Upper Crust",
+      "2910": "Pizza ",
+      "2937": "Pasta Bar at Pizza",
+      "2931": "True Balance",
+      "2916": "Produce ",
+      "2907": "Homestyle",
+      "2919": "Plant Forward Bowls",
+      "2934": "Plant Forward Entrees",
+      "2922": "Mixto",
+      "2925": "Hen & Harvest ",
+      "2904": "Bakery "
+    },
+    "periods_active": [
+      10,
+      13,
+      25,
+      16,
+      4
+    ],
+    "directions": "beside Warner Commons"
+  },
+  "e-hall": {
+    "managers": {
+      "0": {
+        "first_name": "Brian",
+        "last_name": "King",
+        "email": "kingba@jmu.edu",
+        "phone": "(540) 568-4296"
+      }
+    },
+    "payment": [
+      "swipe",
+      "cash",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "E-Hall is popping with activity every day! Stay tuned to BeInvolved or @JMUDining on Insta to learn about upcoming events.",
+    "image_from": "11ba3d59-b528-4c39-9787-458ccb0ad8d2/IMG_0346.jpg",
+    "image_write": "GP/team25/webapp/images/e-hall.jpg",
+    "image_id": "11ba3d59-b528-4c39-9787-458ccb0ad8d2",
+    "image_name": "IMG_0346.jpg",
+    "stations": {
+      "6153": "Iron Skillet",
+      "6168": "Tavolino",
+      "6156": "Burger Grill",
+      "6162": "True Balance",
+      "6159": "Produce",
+      "6165": "Hearth Rotation",
+      "6189": "MTO Omelets ",
+      "6183": "Hearth",
+      "6177": "Deli",
+      "6186": "Soup",
+      "6171": "Global Kitchen",
+      "6174": "Spice Rack",
+      "6150": "Bakery",
+      "6180": "Waffle Bar"
+    },
+    "periods_active": [
+      10,
+      13,
+      25,
+      16,
+      4
+    ],
+    "directions": "Located at 1681 Carrier Dr."
+  },
+  "bistro-1908": {
+    "managers": {
+      "0": {
+        "first_name": "Kari",
+        "last_name": "Harper",
+        "email": "lugarkl@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Delicious Italian Kitchen including fresh stone-oven pizza and house-made pastas. Also offering the Bistro Burger and other flame-grilled favorites!",
+    "image_from": "1ad8dee1-fb14-4851-9887-5b2b2c1446ee/DSC01739.jpg",
+    "image_write": "GP/team25/webapp/images/bistro-1908.jpg",
+    "image_id": "1ad8dee1-fb14-4851-9887-5b2b2c1446ee",
+    "image_name": "DSC01739.jpg",
+    "stations": {
+      "6132": "Bistro Burger",
+      "6135": "Bistro Burger Sauces & Sides",
+      "6147": "Bistro Burger - campus dish",
+      "6129": "Italian Kitchen Flatbreads ",
+      "6144": "Italian Kitchen Pasta",
+      "6138": "Italian Kitchen- campus dish",
+      "6141": "Get Your Green On"
+    },
+    "periods_active": [],
+    "directions": "Located on the second floor of the Student Success Center"
+  },
+  "blue-ridge-innovations": {
+    "managers": {
+      "0": {
+        "first_name": "Adam",
+        "last_name": "Updike",
+        "email": "updikeak@jmu.edu",
+        "phone": "(540) 569-4324"
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Blue Ridge Innovations is a culinary experience with rotating themes to keep things interested. Our three themes are: \n\nBlue Ridge Bowl- The original. Fresh bowls and unique creations. Offers savory and feel-good meals. \n\nElements of Aloha- Island-inspired dishes featuring fresh, tropical flavors. \n\nPho Nominal- Traditional Vietnamese soups bursting with bold flavor. \n\n\n\nBlue Ridge Innovations themes will rotate in the order below throughout the semester: \n\nBlue Ridge Bowl\n\nPho Nominal\n\nElements of Aloha\n\n\nThemes will be rotated roughly every 15 days.",
+    "image_from": "b51d2ff2-678b-4628-b2cc-7e3acf86ba69/IMG_0553.jpg",
+    "image_write": "GP/team25/webapp/images/blue-ridge-innovations.jpg",
+    "image_id": "b51d2ff2-678b-4628-b2cc-7e3acf86ba69",
+    "image_name": "IMG_0553.jpg",
+    "stations": {
+      "6192": "Blue Ridge Bowl",
+      "6195": "Blue Ridge Bowl Offerings",
+      "6198": "LTO'S"
+    },
+    "periods_active": [],
+    "directions": "Located on the second floor of Dukes Dining"
+  },
+  "corner-bistro": {
+    "managers": {
+      "0": {
+        "first_name": "Kari",
+        "last_name": "Harper",
+        "email": "lugarkl@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "The Corner Bistro at Memorial Hall is located in the heart of the former Harrisonburg High School, featuring Java City Coffee and a bistro menu complete with a make-your-own deli, grill & soup menu. Hot entrees include: chicken tenders, hamburgers, cheeseburgers, veggie burgers, quesadillas, and sides. The newly renovated dining location also includes a variety of snack and beverage items. More than a grab and go location, enjoy the inviting dining and comfortable study spaces—whether you're alone or in a group.",
+    "image_from": "ae6014ba-1e3c-44eb-aaae-3c6432ba1e94/IMG_0755.jpg",
+    "image_write": "GP/team25/webapp/images/corner-bistro.jpg",
+    "image_id": "ae6014ba-1e3c-44eb-aaae-3c6432ba1e94",
+    "image_name": "IMG_0755.jpg",
+    "stations": {
+      "6204": "Grill",
+      "6201": "Deli",
+      "6207": "Soup Station"
+    },
+    "periods_active": [],
+    "directions": "Located inside Memorial Hall"
+  },
+  "festival-food-court": {
+    "managers": {
+      "0": {
+        "first_name": "Angie",
+        "last_name": "Steele",
+        "email": "steeleaw@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Including Madison Press Deli, Ignite Pizza and Pasta, and Burgers+Fries and Chik-fil-A!",
+    "image_from": "6d813181-f826-4ced-b10d-2d79d9a0dc41/IMG_3138.jpg",
+    "image_write": "GP/team25/webapp/images/festival-food-court.jpg",
+    "image_id": "6d813181-f826-4ced-b10d-2d79d9a0dc41",
+    "image_name": "IMG_3138.jpg",
+    "stations": {
+      "2745": "B&F-Production",
+      "2736": "B+F-Campus Dish",
+      "2754": "Cashier Station",
+      "2748": "Ignite Pasta-Production",
+      "2751": "Ignite Pizza-Production",
+      "2739": "Ignite-Campus Dish",
+      "2757": "Press Production ",
+      "2742": "Press-Campus Dish"
+    },
+    "periods_active": [],
+    "directions": null
+  },
+  "heirloom-pizza-in-dukes-dining": {
+    "managers": {
+      "0": {
+        "first_name": "Adam",
+        "last_name": "Updike",
+        "email": "updikeak@jmu.edu",
+        "phone": "(540) 569-4324"
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": " Look for fresh ingredients and our new and improved pizza dough. The menu will include classic favorites, including The Bella, and features many limited-time-offers.",
+    "image_from": "f34846bd-7fbc-4b03-bea0-163b7c05bd51/DSC02809.jpg",
+    "image_write": "GP/team25/webapp/images/heirloom-pizza-in-dukes-dining.jpg",
+    "image_id": "f34846bd-7fbc-4b03-bea0-163b7c05bd51",
+    "image_name": "DSC02809.jpg",
+    "stations": {
+      "2766": "Heirloom Pizza",
+      "2769": "Heirloom Pizza-Campus Dish"
+    },
+    "periods_active": [],
+    "directions": "Located on the second floor of Dukes Dining"
+  },
+  "jmu-java-city-d-hall": {
+    "managers": {
+      "0": {
+        "first_name": "Craig",
+        "last_name": "Dively",
+        "email": "divelyct@jmu.edu",
+        "phone": "(540) 568-7526"
+      },
+      "1": {
+        "first_name": "Jacqueline",
+        "last_name": "Roberts",
+        "email": "roberts5jk@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "swipe",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Java City believes in making better coffee and doing it in a way that’s better for farmers and the environment. Enjoy Java City’s hand-crafted specialty coffee drinks made from responsibly sourced coffee from farms focused on environmental protection, community.",
+    "image_from": "5823ed62-18f1-44ca-b556-2bca2f72122c/IMG_0471.jpg",
+    "image_write": "GP/team25/webapp/images/jmu-java-city-d-hall.jpg",
+    "image_id": "5823ed62-18f1-44ca-b556-2bca2f72122c",
+    "image_name": "IMG_0471.jpg",
+    "stations": {
+      "2763": "Sandwich",
+      "2778": "Pastry Case"
+    },
+    "periods_active": [
+      13,
+      25,
+      16,
+      4
+    ],
+    "directions": "On the first floor of D-Hall"
+  },
+  "market-64": {
+    "managers": {
+      "0": {
+        "first_name": "Craig",
+        "last_name": "Dively",
+        "email": "divelyct@jmu.edu",
+        "phone": "(540) 568-7526"
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Featuring barbecue bowls, gourmet sandwiches, soup, Grab-and-Go, and Java City® coffee and espresso.\n\nFun Fact: The name Market 64 pays homage to 1964, the year the original D-Hall was constructed.",
+    "image_from": "43daaf76-d22a-4de2-9a25-f8b700dd6b2a/IMG_0622.jpg",
+    "image_write": "GP/team25/webapp/images/market-64.jpg",
+    "image_id": "43daaf76-d22a-4de2-9a25-f8b700dd6b2a",
+    "image_name": "IMG_0622.jpg",
+    "stations": {
+      "2727": "M64 GRILL  [BOH]",
+      "2730": "THE GRILL @MKT64 OFFERS",
+      "2724": "BBQ - Mac and Cheese",
+      "2721": "SOUP BAR",
+      "2715": "SALAD BAR",
+      "2733": "THE DELI @MKT64 OFFERS",
+      "2712": "Scoops @MKT64 Offers",
+      "2718": "Scoops BOH",
+      "3375": "M64 DELI [BOH]"
+    },
+    "periods_active": [
+      13,
+      25,
+      16,
+      4
+    ],
+    "directions": "Located on the first floor of D-Hall"
+  },
+  "tacodillo": {
+    "managers": {
+      "0": {
+        "first_name": "Adam",
+        "last_name": "Updike",
+        "email": "updikeak@jmu.edu",
+        "phone": "(540) 569-4324"
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Enjoy delicious Tex-Mex food! All menu items are a punch. Pick nachos, tacos or a quesadilla with your choice of protein.",
+    "image_from": "e05718b6-a0d8-45a3-ad0f-aa9db59727ce/IMG_0526.jpg",
+    "image_write": "GP/team25/webapp/images/tacodillo.jpg",
+    "image_id": "e05718b6-a0d8-45a3-ad0f-aa9db59727ce",
+    "image_name": "IMG_0526.jpg",
+    "stations": {
+      "2772": "Tacodilla Menu-Campus Dish",
+      "2775": "Production "
+    },
+    "periods_active": [],
+    "directions": "Located on the third floor of Dukes Dining"
+  },
+  "burgers-fries": {
+    "managers": {
+      "0": {
+        "first_name": "Jessica",
+        "last_name": "Kimmons",
+        "email": "kimmonsjl@jmu.edu",
+        "phone": "(540) 568-2524"
+      }
+    },
+    "payment": [
+      "flex",
+      "dining_dollars",
+      "swipe",
+      "card"
+    ],
+    "description": "We believe bold beats fancy every time! That great value everyday favorites can still be exciting. Burgers + Fries makes great food with a focus on letting guests customize their meals to get exactly what they are looking for. Whether you want it spicy, cheesy, or topped with fresh veggies we have you covered!",
+    "image_from": "80c05905-3f3c-4fde-903a-5c36faec429a/M17111.jpg",
+    "image_write": "GP/team25/webapp/images/burgers-fries.jpg",
+    "image_id": "80c05905-3f3c-4fde-903a-5c36faec429a",
+    "image_name": "M17111.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "Located inside Festival at 1301 Carrier Dr."
+  },
+  "chick-fil-a-at-festival": {
+    "managers": {
+      "0": {
+        "first_name": "Jacqueline",
+        "last_name": "Roberts",
+        "email": "roberts5jk@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "dining_dollars_gold",
+      "swipe",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Whether you're hungry for a hand-breaded Chick-fil-A chicken sandwich, salad, or wrap prepared fresh daily, Chick-fil-A is here to serve you delicious food made with quality ingredients. Chick-fil-A is a successful and popular brand in college and university settings, known for its fast service and convenient, portable food for students on the go.",
+    "image_from": "ee4791d3-87b3-4358-b138-b0d3d7d27fce/IMG_2744.jpg",
+    "image_write": "GP/team25/webapp/images/chick-fil-a-at-festival.jpg",
+    "image_id": "ee4791d3-87b3-4358-b138-b0d3d7d27fce",
+    "image_name": "IMG_2744.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": null
+  },
+  "chick-fil-a-in-d-hall": {
+    "managers": {
+      "0": {
+        "first_name": "Jacqueline",
+        "last_name": "Roberts",
+        "email": "roberts5jk@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Whether you're hungry for a hand-breaded Chick-fil-A chicken sandwich, salad, or wrap prepared fresh daily, Chick-fil-A is here to serve you delicious food made with quality ingredients. Chick-fil-A is a successful and popular brand in college and university settings, known for its fast service and convenient, portable food for students on the go.",
+    "image_from": "b25eb6bb-eece-40c8-853f-b77ebfb2c036/IMG_0458.jpg",
+    "image_write": "GP/team25/webapp/images/chick-fil-a-in-d-hall.jpg",
+    "image_id": "b25eb6bb-eece-40c8-853f-b77ebfb2c036",
+    "image_name": "IMG_0458.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "Located on the first floor of D-Hall"
+  },
+  "dukes-scoops": {
+    "managers": {
+      "0": {
+        "first_name": "Craig",
+        "last_name": "Dively",
+        "email": "divelyct@jmu.edu",
+        "phone": "(540) 568-7526"
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Got a sweet tooth? Try Dukes Scoops!! \n\nDukes Scoops is located inside Market 64 (1st floor D-Hall). Enjoy some delicious ice cream and sundaes. Ask about the featured flavor of the week! \n\nWe also have three delicious Cheesesteaks as Duke Deals\n\nPhilly Cheesesteak\n\nPhilly Cheesesteak Quesadilla\n\nChicken Cheesesteak\n\n",
+    "image_from": "b372950c-6dda-47f7-ab73-2833d283791e/IMG_0621.jpg",
+    "image_write": "GP/team25/webapp/images/dukes-scoops.jpg",
+    "image_id": "b372950c-6dda-47f7-ab73-2833d283791e",
+    "image_name": "IMG_0621.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "Located inside Market 64 on the 1st floor of D-Hall"
+  },
+  "dunkin-donuts-in-ssc": {
+    "managers": {
+      "0": {
+        "first_name": "Kari",
+        "last_name": "Harper",
+        "email": "lugarkl@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "flex",
+      "dining_dollars",
+      "cash",
+      "card"
+    ],
+    "description": "Dunkin' &reg; features freshly baked donuts, sandwiches and signature coffee and espresso beverages.",
+    "image_from": "707093b6-9c26-4d6d-8dbb-576a8d28e4b3/DSC01774.jpg",
+    "image_write": "GP/team25/webapp/images/dunkin-donuts-in-ssc.jpg",
+    "image_id": "707093b6-9c26-4d6d-8dbb-576a8d28e4b3",
+    "image_name": "DSC01774.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "On the second floor of the Student Success Center"
+  },
+  "freshens-fresh-food-studio-in-d-hall": {
+    "managers": {
+      "0": {
+        "first_name": "Craig",
+        "last_name": "Dively",
+        "email": "divelyct@jmu.edu",
+        "phone": "(540) 568-7526"
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Fresh&euml;ns Fresh Food Studio offers food with a purpose. From 100% clean smoothies to fresh tossed salads and globally inspired dishes, Freshens offers healthy, prepared to order food inspired by fresh ingredients.",
+    "image_from": "4944aac8-8b6e-4ecc-a616-4d826369413f/IMG_0451.jpg",
+    "image_write": "GP/team25/webapp/images/freshens-fresh-food-studio-in-d-hall.jpg",
+    "image_id": "4944aac8-8b6e-4ecc-a616-4d826369413f",
+    "image_name": "IMG_0451.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "On the first floor of D-Hall"
+  },
+  "freshens-urec": {
+    "managers": {
+      "0": {
+        "first_name": "Claire",
+        "last_name": "Strack",
+        "email": "Strackcm@jmu.edu",
+        "phone": "(540) 568-2567"
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "cash",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Freshens Fresh Food Kitchen offers fresh, healthy, prepared-to-order food inspired by fresh ingredients and authentic flavors. Serving 100% clean blended fruit smoothies and acai bowls, tossed salads, globally inspired rice bowls, and more.",
+    "image_from": "ac224df1-498d-4eda-852d-e5e93b267e3f/IMG_0700.jpg",
+    "image_write": "GP/team25/webapp/images/freshens-urec.jpg",
+    "image_id": "ac224df1-498d-4eda-852d-e5e93b267e3f",
+    "image_name": "IMG_0700.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "Located inside UREC at 701 Driver Dr."
+  },
+  "ignite": {
+    "managers": {
+      "0": {
+        "first_name": "Jessica",
+        "last_name": "Kimmons",
+        "email": "kimmonsjl@jmu.edu",
+        "phone": "(540) 568-2524"
+      }
+    },
+    "payment": [
+      "dining_dollars_gold",
+      "swipe",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Information coming soon ...",
+    "image_from": "076724f1-ed42-40d0-9aa4-93756f6ca082/PEPPORONIPIZZA.jpg",
+    "image_write": "GP/team25/webapp/images/ignite.jpg",
+    "image_id": "076724f1-ed42-40d0-9aa4-93756f6ca082",
+    "image_name": "PEPPORONIPIZZA.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": null
+  },
+  "jemmy-s-corner-market-and-pod": {
+    "managers": {
+      "0": {
+        "first_name": "Claire",
+        "last_name": "Strack",
+        "email": "Strackcm@jmu.edu",
+        "phone": "(540) 568-2567"
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Convenience store with grocery needs, health and beauty supplies, snacks and beverages\n\nJemmy's offers Starship Delivery Sunday-Thursday, 5 pm - 12 am.",
+    "image_from": "ca3cca44-2038-4ba6-ba40-608cc416d69e/IMG_1526.jpg",
+    "image_write": "GP/team25/webapp/images/jemmy-s-corner-market-and-pod.jpg",
+    "image_id": "ca3cca44-2038-4ba6-ba40-608cc416d69e",
+    "image_name": "IMG_1526.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": null
+  },
+  "lakeside-cafe": {
+    "managers": {
+      "0": {
+        "first_name": "Alisha Delves",
+        "last_name": "Alisha Delves",
+        "email": "delvesam@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Lakeside Cafe offers bagels, sandwiches, and coffees at the Daley Grind with a lovely view of Newman Lake!",
+    "image_from": "7b3fb71b-dd54-4435-aaff-12e2f4ed66a2/IMG_0646.jpg",
+    "image_write": "GP/team25/webapp/images/lakeside-cafe.jpg",
+    "image_id": "7b3fb71b-dd54-4435-aaff-12e2f4ed66a2",
+    "image_name": "IMG_0646.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "Located on the ground floor of Hartman Hall (School of Business)"
+  },
+  "madison-press": {
+    "managers": {
+      "0": {
+        "first_name": "Jessica",
+        "last_name": "Kimmons",
+        "email": "kimmonsjl@jmu.edu",
+        "phone": "(540) 568-2524"
+      }
+    },
+    "payment": [
+      "dining_dollars_gold",
+      "swipe",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Informatuion coming soon ...",
+    "image_from": "75fcab5b-2cf2-41fa-bbb1-3094d975522d/IMG_3040.jpg",
+    "image_write": "GP/team25/webapp/images/madison-press.jpg",
+    "image_id": "75fcab5b-2cf2-41fa-bbb1-3094d975522d",
+    "image_name": "IMG_3040.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": null
+  },
+  "merge-coffee": {
+    "managers": {
+      "0": {
+        "first_name": "Margot",
+        "last_name": "Kons",
+        "email": "konsmm@jmu.edu",
+        "phone": "(540) 568-7407"
+      }
+    },
+    "payment": [
+      "flex",
+      "dining_dollars",
+      "cash",
+      "card"
+    ],
+    "description": "Enjoy the delicious coffee of Merge, a small local cafe, that is also now open on campus! Located in TDU (Taylor Down Under) \n\nMerge is known for their coffee sourcing ethics, learn more here\n\n",
+    "image_from": "8ab36083-07b5-429b-af24-00c5c6a313d8/IMG_0742.jpg",
+    "image_write": "GP/team25/webapp/images/merge-coffee.jpg",
+    "image_id": "8ab36083-07b5-429b-af24-00c5c6a313d8",
+    "image_name": "IMG_0742.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "On the ground floor of Taylor (Union)"
+  },
+  "mr-chips": {
+    "managers": {
+      "0": {
+        "first_name": "Meredith",
+        "last_name": "Whelan",
+        "email": "whelanmc@jmu.edu",
+        "phone": "540-568-3922"
+      }
+    },
+    "payment": [
+      "flex",
+      "dining_dollars",
+      "cash",
+      "card"
+    ],
+    "description": "Mr. Chips is a campus tradition! Find grab & go sandwiches, frozen food, snacks, ice cream, medicine, personal hygiene, cleaning items and more! We Proudly Serve Starbucks, and bubble tea! You can use your dining dollars to pay for food items!",
+    "image_from": "4392c042-f757-4991-b629-2483bbde3d64/IMG_6027.jpg",
+    "image_write": "GP/team25/webapp/images/mr-chips.jpg",
+    "image_id": "4392c042-f757-4991-b629-2483bbde3d64",
+    "image_name": "IMG_6027.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "across from the bookstore"
+  },
+  "pod-in-forbes-center": {
+    "managers": {
+      "0": {
+        "first_name": "Kari",
+        "last_name": "Harper",
+        "email": "lugarkl@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Grab and go sandwiches, salads, fruit, snacks, bottles beverages, coffee, and more.",
+    "image_from": "666c2cc9-028a-445e-8be4-f736e244f8cc/IMG_0774.jpg",
+    "image_write": "GP/team25/webapp/images/pod-in-forbes-center.jpg",
+    "image_id": "666c2cc9-028a-445e-8be4-f736e244f8cc",
+    "image_name": "IMG_0774.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "Located inside the Forbes Center"
+  },
+  "pod-in-jennings-hall": {
+    "managers": {
+      "0": {
+        "first_name": "Claire",
+        "last_name": "Strack",
+        "email": "Strackcm@jmu.edu",
+        "phone": "(540) 568-2567"
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Grab & go sandwiches, salads, fruit, snacks, bottled beverages, coffee, and more.",
+    "image_from": "c2f8f14f-10ee-4bd0-8474-be0d380227e4/IMG_1495.jpg",
+    "image_write": "GP/team25/webapp/images/pod-in-jennings-hall.jpg",
+    "image_id": "c2f8f14f-10ee-4bd0-8474-be0d380227e4",
+    "image_name": "IMG_1495.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "On the first floor of Jennings Hall"
+  },
+  "pod-in-king-hall": {
+    "managers": {
+      "0": {
+        "first_name": "Jessica",
+        "last_name": "Kimmons",
+        "email": "kimmonsjl@jmu.edu",
+        "phone": "(540) 568-2524"
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "cash",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Grab & go sandwiches, salads, fruit, snacks, bottled beverages, coffee, and more.",
+    "image_from": "8a878827-d52c-4f64-81c9-ad787e353bc5/IMG_1472.jpg",
+    "image_write": "GP/team25/webapp/images/pod-in-king-hall.jpg",
+    "image_id": "8a878827-d52c-4f64-81c9-ad787e353bc5",
+    "image_name": "IMG_1472.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "Inside King Hall"
+  },
+  "panda-express": {
+    "managers": {
+      "0": {
+        "first_name": "Adam",
+        "last_name": "Updike",
+        "email": "updikeak@jmu.edu",
+        "phone": "(540) 569-4324"
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Welcome to our Chinese kitchen. Panda Express prepares American Chinese food fresh from the wok, from their signature Orange Chicken to bold limited time offerings. Chinese-inspired, American-made, Panda Express masterfully combines the tastiest from both worlds to give a delicious experience and craft dishes that taste and feel good!",
+    "image_from": "51fa7af6-c608-46c2-8506-263a234b939b/IMG_8822.jpg",
+    "image_write": "GP/team25/webapp/images/panda-express.jpg",
+    "image_id": "51fa7af6-c608-46c2-8506-263a234b939b",
+    "image_name": "IMG_8822.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "Located on the second floor of Dukes Dining"
+  },
+  "panera-in-dukes-dining": {
+    "managers": {
+      "0": {
+        "first_name": "Adam",
+        "last_name": "Updike",
+        "email": "updikeak@jmu.edu",
+        "phone": "(540) 569-4324"
+      }
+    },
+    "payment": [
+      "panera_gift_card",
+      "cash",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "We believe in serving delicious, freshly prepared, clean dishes made with carefully selected ingredients that we would be proud to serve our own families. Our menu, crafted by chefs and bakers, features classic, comforting dishes, each with an intriguing twist.\n\nSave time by ordering ahead through Panera mobile app or website and selecting \"Pick-up\". You can pay with Dining Dollars!",
+    "image_from": "1ba909b2-6376-44c9-aad7-fc2d2ba497b8/Panera_Bread_image_16x9.jpg",
+    "image_write": "GP/team25/webapp/images/panera-in-dukes-dining.jpg",
+    "image_id": "1ba909b2-6376-44c9-aad7-fc2d2ba497b8",
+    "image_name": "Panera_Bread_image_16x9.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "Located on the ground floor of Dukes Dining"
+  },
+  "starbucks-truck": {
+    "managers": {
+      "0": {
+        "first_name": "Brian",
+        "last_name": "King",
+        "email": "kingba@jmu.edu",
+        "phone": "(540) 568-4296"
+      }
+    },
+    "payment": [
+      "flex",
+      "dining_dollars",
+      "cash",
+      "card"
+    ],
+    "description": "Your full-service Starbucks offers high-quality coffees, hand-crafted espresso drinks, teas, and smoothies. With every cup, with every conversation, with every community&mdash;Starbucks nurtures the limitless possibilities of human connection.",
+    "image_from": "df4cbdf4-a7ab-44de-bf42-cd6c76f5e53a/IMG_1417.jpg",
+    "image_write": "GP/team25/webapp/images/starbucks-truck.jpg",
+    "image_id": "df4cbdf4-a7ab-44de-bf42-cd6c76f5e53a",
+    "image_name": "IMG_1417.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "Currently located between D-Hall and Gabbin Hall"
+  },
+  "starbucks-at-rose-library": {
+    "managers": {
+      "0": {
+        "first_name": "Brian",
+        "last_name": "King",
+        "email": "kingba@jmu.edu",
+        "phone": "(540) 568-4296"
+      }
+    },
+    "payment": [
+      "flex",
+      "dining_dollars",
+      "cash",
+      "card"
+    ],
+    "description": "Your full-service Starbucks offers high-quality coffees, hand-crafted espresso drinks, teas, smoothies, and a variety of pastries, pre-packaged snacks, and breakfast sandwiches. With every cup, with every conversation, with every community&mdash;Starbucks nurtures the limitless possibilities of human connection.",
+    "image_from": "4854957c-e487-49de-b43c-d0c4481e7ed4/IMG_0441.jpg",
+    "image_write": "GP/team25/webapp/images/starbucks-at-rose-library.jpg",
+    "image_id": "4854957c-e487-49de-b43c-d0c4481e7ed4",
+    "image_name": "IMG_0441.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "On the first floor of Rose Library"
+  },
+  "steak-n-shake": {
+    "managers": {
+      "0": {
+        "first_name": "Craig",
+        "last_name": "Dively",
+        "email": "divelyct@jmu.edu",
+        "phone": "(540) 568-7526"
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Steak &lsquo;N Shake&reg; features items such as Steakburgers, chicken fingers, crispy fries, classic and specialty milkshakes, featuring a late-night walk-up window.\n\nNOTE* Fries, onion rings, and chicken tenders are cooked in 100% beef tallow.",
+    "image_from": "9b00f5ac-d464-4b10-8600-1c21047a3d4e/Steak_N_Shake_image_16x9.jpg",
+    "image_write": "GP/team25/webapp/images/steak-n-shake.jpg",
+    "image_id": "9b00f5ac-d464-4b10-8600-1c21047a3d4e",
+    "image_name": "Steak_N_Shake_image_16x9.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "On the first floor of D-Hall"
+  },
+  "subway": {
+    "managers": {
+      "0": {
+        "first_name": "Kari",
+        "last_name": "Harper",
+        "email": "lugarkl@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "cash",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Subway is your go-to spot for fresh, affordable, and fully customizable subs, wraps, and salads&mdash;perfect for fueling up between classes or late-night study sessions. With tons of options and quick service, it&rsquo;s a smart choice for students who want something tasty, fast, and made just the way they like it.",
+    "image_from": "27c9df1d-943b-47fa-af47-60747ef7999f/Subway_image_16x9.jpg",
+    "image_write": "GP/team25/webapp/images/subway.jpg",
+    "image_id": "27c9df1d-943b-47fa-af47-60747ef7999f",
+    "image_name": "Subway_image_16x9.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "Located on the first floor of Grace St. Apartments"
+  },
+  "tenders-love-chicken": {
+    "managers": {
+      "0": {
+        "first_name": "Alisha Delves",
+        "last_name": "Alisha Delves",
+        "email": "delvesam@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "We’re passionate about chicken. We’re guessing you are too. We bring devotion to Chicken, with a dash of love and the highest quality ingredients, to craft the best chicken tenders out there. We believe chicken tenders are the perfect food—whether you dip them or put them on a bun.",
+    "image_from": "29ce2e26-aa10-4b9f-83cd-75ae4249fc4b/IMG_0415.jpg",
+    "image_write": "GP/team25/webapp/images/tenders-love-chicken.jpg",
+    "image_id": "29ce2e26-aa10-4b9f-83cd-75ae4249fc4b",
+    "image_name": "IMG_0415.jpg",
+    "stations": {
+      "2760": "Tenders, Love and Chicken"
+    },
+    "periods_active": [
+      25,
+      16
+    ],
+    "directions": "Located inside Atlantic Union Bank Center"
+  },
+  "the-den-in-dukes-dining": {
+    "managers": {
+      "0": {
+        "first_name": "Adam",
+        "last_name": "Updike",
+        "email": "updikeak@jmu.edu",
+        "phone": "(540) 569-4324"
+      }
+    },
+    "payment": [
+      "duke_deal",
+      "flex",
+      "dining_dollars",
+      "card"
+    ],
+    "description": "Welcome to The Den by Denny's, America's favorite diner. Where friends can meet up to chow down. Whenever. Whyever.",
+    "image_from": "8c971b5a-da05-4773-b5a5-a0c97e6a618f/IMG_0512.jpg",
+    "image_write": "GP/team25/webapp/images/the-den-in-dukes-dining.jpg",
+    "image_id": "8c971b5a-da05-4773-b5a5-a0c97e6a618f",
+    "image_name": "IMG_0512.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": "On the third floor of Dukes Dining"
+  }
+}

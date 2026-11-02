@@ -1,0 +1,437 @@
+/* ========== CSS VARIABLES ========== */
+:root {
+    --jmu-purple: #450084;
+    --jmu-gold: #CBB677;
+}
+
+/* ========== NAVBAR ========== */
+.navbar,
+.navbar-default,
+.navbar-inverse {
+    background-color: var(--jmu-purple) !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+
+.navbar-brand,
+.navbar-default .navbar-brand,
+.navbar-inverse .navbar-brand {
+    color: var(--jmu-gold) !important;
+    font-weight: bold;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-inverse .navbar-brand:hover {
+    color: var(--jmu-gold) !important;
+}
+
+.navbar .nav > li > a,
+.navbar-default .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a {
+    color: #f0f0f0 !important;
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav > .open > a,
+.navbar .nav > .open > a:hover,
+.navbar .nav > .open > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .open > a {
+    background-color: #2e005c !important;
+    color: var(--jmu-gold) !important;
+}
+
+.navbar .nav > li > a .caret,
+.navbar .nav > li > a i.fa,
+.navbar .nav > li > a i {
+    color: var(--jmu-gold) !important;
+}
+
+.navbar .dropdown-menu {
+    background: white !important;
+    border: 1px solid rgba(0,0,0,0.08) !important;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.12) !important;
+}
+
+.navbar .dropdown-menu > li > a {
+    color: #333 !important;
+}
+
+.navbar .dropdown-menu > li > a:hover {
+    background-color: var(--jmu-purple) !important;
+    color: var(--jmu-gold) !important;
+}
+
+.navbar-toggle .icon-bar,
+.navbar .caret {
+    background-color: #f0f0f0 !important;
+}
+
+/* ========== PAGINATION ========== */
+.pagination > li > a,
+.pagination > li > span,
+.pagination .page-size {
+    background: transparent !important;
+    color: #2c2c2c !important;
+    border-color: #e0e0e0 !important;
+}
+
+.pagination > li.active > a,
+.pagination > li.active > span {
+    background-color: var(--jmu-gold) !important;
+    color: var(--jmu-purple) !important;
+    border-color: var(--jmu-gold) !important;
+}
+
+/* ========== BUTTONS ========== */
+.btn.btn-default,
+.btn-default[role="button"],
+.btn.btn-default:hover,
+.btn-default:focus,
+.btn.page-size,
+.page-size .btn,
+.ab_actions .btn,
+.ab_actions .btn-default {
+    background-color: #f5f5f5 !important;
+    color: #333 !important;
+    border-color: #dcdcdc !important;
+}
+
+.btn-primary {
+    background-color: var(--jmu-gold) !important;
+    border-color: #b09b5b !important;
+    color: #2c2c2c !important;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #e6ce88 !important;
+    color: #000 !important;
+}
+
+/* ========== JUMBOTRON ========== */
+.jumbotron {
+    background-color: var(--jmu-purple) !important;
+    color: white;
+}
+
+/* ========== HOMEPAGE FEATURES ========== */
+.feature-panel {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    border-radius: 8px;
+}
+
+.feature-panel:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    color: var(--jmu-purple);
+    margin-bottom: 15px;
+}
+
+/* ========== FLOATING HELP BUTTON ========== */
+.btn-help-corner {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    padding: 0;
+    line-height: 58px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+/* ========== GLOBAL STYLING ========== */
+body {
+    background-color: #fdfdfd;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2, h3, h4 {
+    color: var(--jmu-purple);
+    font-weight: 700;
+}
+
+/* ========== TABLES ========== */
+.table > thead > tr > th {
+    background-color: var(--jmu-purple);
+    color: var(--jmu-gold);
+    border-bottom: 3px solid var(--jmu-gold);
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    vertical-align: middle;
+}
+
+.table > thead > tr > th a {
+    color: var(--jmu-gold) !important;
+}
+
+.table > thead > tr > th a:hover {
+    color: white !important;
+    text-decoration: none;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #f2f2f2;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+    border-top: 1px solid #e0e0e0;
+}
+
+/* ========== MENU ITEM CARDS ========== */
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.menu-card-col {
+    padding: 10px;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .menu-card-col { width: 100%; }
+}
+
+.menu-card {
+    background: white;
+    border-left: 5px solid var(--jmu-gold);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    padding: 15px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    height: 100%;
+}
+
+.menu-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(69, 0, 132, 0.15);
+}
+
+.menu-item-title {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.menu-item-meta {
+    font-size: 0.85em;
+    color: #777;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.menu-item-desc {
+    color: #555;
+    font-style: italic;
+    font-size: 0.95em;
+    line-height: 1.4;
+}
+
+/* ========== BADGES ========== */
+.badge-duke-deal {
+    background-color: var(--jmu-purple);
+    color: var(--jmu-gold);
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: bold;
+    float: right;
+}
+
+.badge-meal-type {
+    background-color: #eee;
+    color: #555;
+    padding: 3px 6px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+/* ========== HERO SECTION ========== */
+.container {
+    max-width: 1600px;
+}
+
+.hero {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    padding: 60px 0 40px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(33,7,61,0.65) 0%, rgba(33,7,61,0.65) 100%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.hero-portrait {
+    display: block;
+    margin: 0 auto 18px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    padding: 6px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.03));
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+    border: 6px solid var(--jmu-gold);
+    overflow: hidden;
+}
+
+.hero-building {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+    filter: saturate(1.08) contrast(1.05);
+    transform: translateZ(0);
+}
+
+.hero-title {
+    font-size: 3.2rem;
+    font-weight: 800;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    color: #fff;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.45);
+}
+
+.hero-sub {
+    color: rgba(255,255,255,0.92);
+    margin-bottom: 18px;
+    font-size: 2.1rem;
+}
+
+.hero .btn-primary {
+    background-color: var(--jmu-gold) !important;
+    color: var(--jmu-purple) !important;
+    border: 1px solid rgba(0,0,0,0.065) !important;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+}
+
+@media (max-width: 768px) {
+    .hero-title { font-size: 2.1rem; }
+    .hero-portrait { width: 120px; height: 120px; }
+    .hero { padding: 40px 0 30px; }
+}
+
+/* ========== OVERRIDE FLATLY ========== */
+a {
+    color: var(--jmu-gold) !important;
+}
+
+/* For button links specifically */
+.btn-default a,
+.btn-link {
+    color: var(--jmu-purple) !important;
+}
+
+.btn-default a:hover,
+.btn-link:hover {
+    color: var(--jmu-gold) !important;
+}
+
+dl.dl-horizontal dd,
+.panel-body td {
+    color: #333 !important;
+}
+
+.accordion-toggle {
+    color: var(--jmu-purple) !important;
+    background-color: #f5f5f5 !important;
+    border-color: #ddd !important;
+}
+
+.accordion-toggle:hover,
+.accordion-toggle:focus {
+    color: var(--jmu-gold) !important;
+    background-color: #e8e8e8 !important;
+}
+
+.accordion-toggle .caret {
+    color: var(--jmu-purple) !important;
+}
+
+.panel-default > .panel-heading {
+    background-color: #f5f5f5 !important;
+    border-color: #ddd !important;
+}
+
+.panel-default > .panel-heading a {
+    color: var(--jmu-purple) !important;
+}
+
+.panel-default > .panel-heading a:hover {
+    color: var(--jmu-gold) !important;
+}
+
+.place-image-right {
+    float: right;
+    margin-left: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+.place-image {
+    display: block;
+    height: auto;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* Header image + text layout */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align image to top */
+    gap: 30px;
+    padding: 20px 30px;
+}
+
+/* Text column */
+.header-text {
+    flex: 1;
+}
+
+/* Bigger top-aligned image */
+.place-header-image {
+    width: 420px;     /* Change this to make the image bigger/smaller */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
