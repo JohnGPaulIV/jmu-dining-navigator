@@ -68,6 +68,11 @@
       "label": "Vegetarian",
       "title": "Vegetarian"
     },
+    "133": {
+      "description": "Prepared with halal-certified proteins and ingredients suitable for halal diets.",
+      "label": "Halal",
+      "title": "Halal Friendly"
+    },
     "609": {
       "description": "Certified climate-friendly by the World Resources Institute. They have a low impact on the climate, making them a delicious way to help the planet.",
       "label": "Coolfood Meal",
@@ -92,11 +97,6 @@
       "description": "Whole grains are a leading ingredient in this item.",
       "label": "Hearty Whole Grains",
       "title": "Made with Whole Grains"
-    },
-    "133": {
-      "description": "",
-      "label": "Halal",
-      "title": "Halal"
     }
   }
 }

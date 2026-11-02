@@ -208,7 +208,7 @@ for preference in preferences:
 pprint.pprint(allergens)
 
 # ========== WRITE TO FILE ==========
-with open("allergens.json", "w", encoding="utf-8") as f:
+with open("database/pgsql/allergens.json", "w", encoding="utf-8") as f:
     json.dump(allergens, f, ensure_ascii=False, indent=2)
 
 print("Saved store_config.json")

@@ -1,95 +1,4 @@
 {
-  "d-hall": {
-    "managers": {
-      "0": {
-        "first_name": "Holly",
-        "last_name": "Davis",
-        "email": "davishm@jmu.edu",
-        "phone": "(703) 463-8434"
-      }
-    },
-    "payment": [
-      "swipe",
-      "cash",
-      "flex",
-      "dining_dollars",
-      "card"
-    ],
-    "description": "D-Hall sits in the middle of campus and offers an all-you-care-to eat dining hall. Stay tuned to the BeInvolved app or @JMUDining on Insta to learn about upcoming events.",
-    "image_from": "32934f1c-de06-4881-a437-b7c9ae507ea1/IMG_0784.jpg",
-    "image_write": "GP/team25/webapp/images/d-hall.jpg",
-    "image_id": "32934f1c-de06-4881-a437-b7c9ae507ea1",
-    "image_name": "IMG_0784.jpg",
-    "stations": {
-      "2901": "Fire Wok",
-      "2928": "Noodle Bowl",
-      "2913": "Upper Crust",
-      "2910": "Pizza ",
-      "2937": "Pasta Bar at Pizza",
-      "2931": "True Balance",
-      "2916": "Produce ",
-      "2907": "Homestyle",
-      "2919": "Plant Forward Bowls",
-      "2934": "Plant Forward Entrees",
-      "2922": "Mixto",
-      "2925": "Hen & Harvest ",
-      "2904": "Bakery "
-    },
-    "periods_active": [
-      10,
-      13,
-      25,
-      16,
-      4
-    ],
-    "directions": "beside Warner Commons"
-  },
-  "e-hall": {
-    "managers": {
-      "0": {
-        "first_name": "Brian",
-        "last_name": "King",
-        "email": "kingba@jmu.edu",
-        "phone": "(540) 568-4296"
-      }
-    },
-    "payment": [
-      "swipe",
-      "cash",
-      "flex",
-      "dining_dollars",
-      "card"
-    ],
-    "description": "E-Hall is popping with activity every day! Stay tuned to BeInvolved or @JMUDining on Insta to learn about upcoming events.",
-    "image_from": "11ba3d59-b528-4c39-9787-458ccb0ad8d2/IMG_0346.jpg",
-    "image_write": "GP/team25/webapp/images/e-hall.jpg",
-    "image_id": "11ba3d59-b528-4c39-9787-458ccb0ad8d2",
-    "image_name": "IMG_0346.jpg",
-    "stations": {
-      "6153": "Iron Skillet",
-      "6168": "Tavolino",
-      "6156": "Burger Grill",
-      "6162": "True Balance",
-      "6159": "Produce",
-      "6165": "Hearth Rotation",
-      "6189": "MTO Omelets ",
-      "6183": "Hearth",
-      "6177": "Deli",
-      "6186": "Soup",
-      "6171": "Global Kitchen",
-      "6174": "Spice Rack",
-      "6150": "Bakery",
-      "6180": "Waffle Bar"
-    },
-    "periods_active": [
-      10,
-      13,
-      25,
-      16,
-      4
-    ],
-    "directions": "Located at 1681 Carrier Dr."
-  },
   "bistro-1908": {
     "managers": {
       "0": {
@@ -100,174 +9,56 @@
       }
     },
     "payment": [
-      "duke_deal",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "Delicious Italian Kitchen including fresh stone-oven pizza and house-made pastas. Also offering the Bistro Burger and other flame-grilled favorites!",
+    "description": "Delicious Italian Kitchen including fresh stone-oven pizza and house-made pastas. Also offering the Bistro Burger and other flame-grilled favorites!\n\nDuke Deals: Italian Kitchen \n\nPizza \n\n*All deals include either a) 1 slice of pizza with side salad + 22 oz fountain drink or b) 2 slices of pizza + 22 oz fountain drink\n\nCheese Pizza\n\nPepperoni Pizza\n\nBuffalo Chicken Ranch Pizza\n\nPesto Ricotta Pizza\n\nSausage Hot Honey Slice\n\nPasta\n\nBuild Your Own Pasta Bowl (choice of pasta, sauce, and protein)Served with garlic knot + 22 oz fountain drink\n\n\n\nTour of Italy\n\nChicken Parm Pasta\n\nPesto Spaghetti\n\nCarbonara Spaghetti\n\nLasagna\n\nSalads & More\n\nBuild Your Own Bowl (choice of four toppings, dressing, and protein)Served with garlic knot + 22 oz fountain drink\n\n\n\nMeat Lovers Calzone\n\nChicken Parm Sliders\n\nMeatball Sub\n\nBruschetta Sliders\n\nChicken Caesar Salad\n\nMade Without Gluten (MWG) Options\n\nIncludes a 22 oz fountain drink- opt out of garlic knot. MWG pizza crust and pasta available.\n\nCheese Pizza\n\nPepperoni Pizza\n\nPesto Ricotta Pizza\n\nBuffalo Chicken Bacon Ranch Pizza\n\nBuild Your Own Pasta BowlMWG Base: Zucchini Noodles & MWG Penne\n\nMWG Sauce: Marinara\n\n\n\n\n\nDuke Deals: Bistro Burger\n\n*All deals include choice of fries OR house salad + 22 oz fountain drink\n\nAll-American\n\nThe Duke\n\nThe Southwestern\n\nBistro Jam\n\nGarlic Chicken Sandwich\n\nGrilled Chicken Sandwich\n\nOriginal Chicken Tender Basket\n\nFried Pickles\n\nMade Without Gluten (MWG) Options\n\nIncludes a choice of French fries OR house salad.\n\nAll American: Burger patty with American cheese, bacon, lettuce, tomato, red onion and Bistro Burger sauce\n\nBistro Jam: Burger patty with bacon jam & American cheese - remove rings.\n\nThe Southwestern: Burger patty with pepper jack cheese, red onion, guacamole, jalapenos, and tortilla stripsMWG Patty: Beef, NoBull Burger (plant-based)\n\nMWG Buns: MWG Bun, Lettuce Wrap Available\n\nMWG Cheese: American, Cheddar, Pepper Jack, Plant-Based Cheese\n\n\n\n\n\n",
     "image_from": "1ad8dee1-fb14-4851-9887-5b2b2c1446ee/DSC01739.jpg",
-    "image_write": "GP/team25/webapp/images/bistro-1908.jpg",
+    "image_write": "webapp/static/images/futurebistro-1908.jpg",
     "image_id": "1ad8dee1-fb14-4851-9887-5b2b2c1446ee",
     "image_name": "DSC01739.jpg",
     "stations": {
-      "6132": "Bistro Burger",
-      "6135": "Bistro Burger Sauces & Sides",
-      "6147": "Bistro Burger - campus dish",
-      "6129": "Italian Kitchen Flatbreads ",
-      "6144": "Italian Kitchen Pasta",
-      "6138": "Italian Kitchen- campus dish",
+      "6147": "Bistro Burger",
+      "6138": "Italian Kitchen",
       "6141": "Get Your Green On"
     },
-    "periods_active": [],
+    "periods_active": [
+      13,
+      25,
+      16,
+      4
+    ],
     "directions": "Located on the second floor of the Student Success Center"
   },
   "blue-ridge-innovations": {
     "managers": {
       "0": {
-        "first_name": "Adam",
-        "last_name": "Updike",
-        "email": "updikeak@jmu.edu",
-        "phone": "(540) 569-4324"
+        "first_name": "Joshua",
+        "last_name": "Windley",
+        "email": "windley-joshua@aramark.com",
+        "phone": null
       }
     },
     "payment": [
-      "duke_deal",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "Blue Ridge Innovations is a culinary experience with rotating themes to keep things interested. Our three themes are: \n\nBlue Ridge Bowl- The original. Fresh bowls and unique creations. Offers savory and feel-good meals. \n\nElements of Aloha- Island-inspired dishes featuring fresh, tropical flavors. \n\nPho Nominal- Traditional Vietnamese soups bursting with bold flavor. \n\n\n\nBlue Ridge Innovations themes will rotate in the order below throughout the semester: \n\nBlue Ridge Bowl\n\nPho Nominal\n\nElements of Aloha\n\n\nThemes will be rotated roughly every 15 days.",
+    "description": "Blue Ridge Innovations is a culinary experience with rotating themes to keep things interested. Our themes are: \n\nBlue Ridge Bowl- The original. Fresh bowls and unique creations. Offers savory and feel-good meals. \n\nElements of Aloha- Island-inspired dishes featuring fresh, tropical flavors. \n\nCardamom & Clove- Middle Eastern protein bowls featuring bold flavors.\n\n\nThemes will be rotated roughly every two weeks. \n\nDuke Deals \n\nBlue Ridge Bowl:\n\nCreate Your Own Bowl + 22 oz fountain drink or water\n\nMade Without Gluten (MWG) OptionsMWG Greens: Kale, Spring Mix & Romaine Lettuce\n\nMWG Proteins: Carne Asada, Grilled Chicken, & Marinated Tofu\n\nMWG Grains: Brown Rice, Quinoa, & Yellow Rice\n\nMWG Dressings: Balsamic, Classic Ranch, Jalapeno Ranch, Caesar, Greek, Miso, Ginger, and Pesto Balsamic\n\n\n\n\nElements of Aloha:\n\nHuli Huli Chicken + 22 oz fountain drink or water\n\nLuau Salmon + 22 oz fountain drink or water\n\nDiamond Head Tofu + 22 oz fountain drink or water\n\nMade Without Gluten OptionsMWG Proteins: All three, including sauces! Huli Huli Chicken, Luau Salmon and Diamond Head Tofu\n\nMWG Sides: White Rice and Mixed Vegetables\n\nMWG Toppings: All toppings- expect for the crispy onions\n\n\n\nCardamom & Clove:\n\nCreate Your Own Bowl + 22 oz fountain drink or water\n\n\n\n",
     "image_from": "b51d2ff2-678b-4628-b2cc-7e3acf86ba69/IMG_0553.jpg",
-    "image_write": "GP/team25/webapp/images/blue-ridge-innovations.jpg",
+    "image_write": "webapp/static/images/futureblue-ridge-innovations.jpg",
     "image_id": "b51d2ff2-678b-4628-b2cc-7e3acf86ba69",
     "image_name": "IMG_0553.jpg",
     "stations": {
       "6192": "Blue Ridge Bowl",
       "6195": "Blue Ridge Bowl Offerings",
-      "6198": "LTO'S"
-    },
-    "periods_active": [],
-    "directions": "Located on the second floor of Dukes Dining"
-  },
-  "corner-bistro": {
-    "managers": {
-      "0": {
-        "first_name": "Kari",
-        "last_name": "Harper",
-        "email": "lugarkl@jmu.edu",
-        "phone": null
-      }
-    },
-    "payment": [
-      "duke_deal",
-      "flex",
-      "dining_dollars",
-      "card"
-    ],
-    "description": "The Corner Bistro at Memorial Hall is located in the heart of the former Harrisonburg High School, featuring Java City Coffee and a bistro menu complete with a make-your-own deli, grill & soup menu. Hot entrees include: chicken tenders, hamburgers, cheeseburgers, veggie burgers, quesadillas, and sides. The newly renovated dining location also includes a variety of snack and beverage items. More than a grab and go location, enjoy the inviting dining and comfortable study spaces—whether you're alone or in a group.",
-    "image_from": "ae6014ba-1e3c-44eb-aaae-3c6432ba1e94/IMG_0755.jpg",
-    "image_write": "GP/team25/webapp/images/corner-bistro.jpg",
-    "image_id": "ae6014ba-1e3c-44eb-aaae-3c6432ba1e94",
-    "image_name": "IMG_0755.jpg",
-    "stations": {
-      "6204": "Grill",
-      "6201": "Deli",
-      "6207": "Soup Station"
-    },
-    "periods_active": [],
-    "directions": "Located inside Memorial Hall"
-  },
-  "festival-food-court": {
-    "managers": {
-      "0": {
-        "first_name": "Angie",
-        "last_name": "Steele",
-        "email": "steeleaw@jmu.edu",
-        "phone": null
-      }
-    },
-    "payment": [
-      "duke_deal",
-      "flex",
-      "dining_dollars",
-      "card"
-    ],
-    "description": "Including Madison Press Deli, Ignite Pizza and Pasta, and Burgers+Fries and Chik-fil-A!",
-    "image_from": "6d813181-f826-4ced-b10d-2d79d9a0dc41/IMG_3138.jpg",
-    "image_write": "GP/team25/webapp/images/festival-food-court.jpg",
-    "image_id": "6d813181-f826-4ced-b10d-2d79d9a0dc41",
-    "image_name": "IMG_3138.jpg",
-    "stations": {
-      "2745": "B&F-Production",
-      "2736": "B+F-Campus Dish",
-      "2754": "Cashier Station",
-      "2748": "Ignite Pasta-Production",
-      "2751": "Ignite Pizza-Production",
-      "2739": "Ignite-Campus Dish",
-      "2757": "Press Production ",
-      "2742": "Press-Campus Dish"
-    },
-    "periods_active": [],
-    "directions": null
-  },
-  "heirloom-pizza-in-dukes-dining": {
-    "managers": {
-      "0": {
-        "first_name": "Adam",
-        "last_name": "Updike",
-        "email": "updikeak@jmu.edu",
-        "phone": "(540) 569-4324"
-      }
-    },
-    "payment": [
-      "duke_deal",
-      "flex",
-      "dining_dollars",
-      "card"
-    ],
-    "description": " Look for fresh ingredients and our new and improved pizza dough. The menu will include classic favorites, including The Bella, and features many limited-time-offers.",
-    "image_from": "f34846bd-7fbc-4b03-bea0-163b7c05bd51/DSC02809.jpg",
-    "image_write": "GP/team25/webapp/images/heirloom-pizza-in-dukes-dining.jpg",
-    "image_id": "f34846bd-7fbc-4b03-bea0-163b7c05bd51",
-    "image_name": "DSC02809.jpg",
-    "stations": {
-      "2766": "Heirloom Pizza",
-      "2769": "Heirloom Pizza-Campus Dish"
-    },
-    "periods_active": [],
-    "directions": "Located on the second floor of Dukes Dining"
-  },
-  "jmu-java-city-d-hall": {
-    "managers": {
-      "0": {
-        "first_name": "Craig",
-        "last_name": "Dively",
-        "email": "divelyct@jmu.edu",
-        "phone": "(540) 568-7526"
-      },
-      "1": {
-        "first_name": "Jacqueline",
-        "last_name": "Roberts",
-        "email": "roberts5jk@jmu.edu",
-        "phone": null
-      }
-    },
-    "payment": [
-      "duke_deal",
-      "swipe",
-      "flex",
-      "dining_dollars",
-      "card"
-    ],
-    "description": "Java City believes in making better coffee and doing it in a way that’s better for farmers and the environment. Enjoy Java City’s hand-crafted specialty coffee drinks made from responsibly sourced coffee from farms focused on environmental protection, community.",
-    "image_from": "5823ed62-18f1-44ca-b556-2bca2f72122c/IMG_0471.jpg",
-    "image_write": "GP/team25/webapp/images/jmu-java-city-d-hall.jpg",
-    "image_id": "5823ed62-18f1-44ca-b556-2bca2f72122c",
-    "image_name": "IMG_0471.jpg",
-    "stations": {
-      "2763": "Sandwich",
-      "2778": "Pastry Case"
+      "6198": "LTO'S",
+      "293936": "Aloha",
+      "293939": "Medi",
+      "293942": "Cardamom and Clove"
     },
     "periods_active": [
       13,
@@ -275,73 +66,7 @@
       16,
       4
     ],
-    "directions": "On the first floor of D-Hall"
-  },
-  "market-64": {
-    "managers": {
-      "0": {
-        "first_name": "Craig",
-        "last_name": "Dively",
-        "email": "divelyct@jmu.edu",
-        "phone": "(540) 568-7526"
-      }
-    },
-    "payment": [
-      "duke_deal",
-      "flex",
-      "dining_dollars",
-      "card"
-    ],
-    "description": "Featuring barbecue bowls, gourmet sandwiches, soup, Grab-and-Go, and Java City® coffee and espresso.\n\nFun Fact: The name Market 64 pays homage to 1964, the year the original D-Hall was constructed.",
-    "image_from": "43daaf76-d22a-4de2-9a25-f8b700dd6b2a/IMG_0622.jpg",
-    "image_write": "GP/team25/webapp/images/market-64.jpg",
-    "image_id": "43daaf76-d22a-4de2-9a25-f8b700dd6b2a",
-    "image_name": "IMG_0622.jpg",
-    "stations": {
-      "2727": "M64 GRILL  [BOH]",
-      "2730": "THE GRILL @MKT64 OFFERS",
-      "2724": "BBQ - Mac and Cheese",
-      "2721": "SOUP BAR",
-      "2715": "SALAD BAR",
-      "2733": "THE DELI @MKT64 OFFERS",
-      "2712": "Scoops @MKT64 Offers",
-      "2718": "Scoops BOH",
-      "3375": "M64 DELI [BOH]"
-    },
-    "periods_active": [
-      13,
-      25,
-      16,
-      4
-    ],
-    "directions": "Located on the first floor of D-Hall"
-  },
-  "tacodillo": {
-    "managers": {
-      "0": {
-        "first_name": "Adam",
-        "last_name": "Updike",
-        "email": "updikeak@jmu.edu",
-        "phone": "(540) 569-4324"
-      }
-    },
-    "payment": [
-      "duke_deal",
-      "flex",
-      "dining_dollars",
-      "card"
-    ],
-    "description": "Enjoy delicious Tex-Mex food! All menu items are a punch. Pick nachos, tacos or a quesadilla with your choice of protein.",
-    "image_from": "e05718b6-a0d8-45a3-ad0f-aa9db59727ce/IMG_0526.jpg",
-    "image_write": "GP/team25/webapp/images/tacodillo.jpg",
-    "image_id": "e05718b6-a0d8-45a3-ad0f-aa9db59727ce",
-    "image_name": "IMG_0526.jpg",
-    "stations": {
-      "2772": "Tacodilla Menu-Campus Dish",
-      "2775": "Production "
-    },
-    "periods_active": [],
-    "directions": "Located on the third floor of Dukes Dining"
+    "directions": "Located on the second floor of Dukes Dining"
   },
   "burgers-fries": {
     "managers": {
@@ -353,39 +78,45 @@
       }
     },
     "payment": [
-      "flex",
       "dining_dollars",
-      "swipe",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "We believe bold beats fancy every time! That great value everyday favorites can still be exciting. Burgers + Fries makes great food with a focus on letting guests customize their meals to get exactly what they are looking for. Whether you want it spicy, cheesy, or topped with fresh veggies we have you covered!",
+    "description": "We believe bold beats fancy every time! That great value everyday favorites can still be exciting. Burgers + Fries makes great food with a focus on letting guests customize their meals to get exactly what they are looking for. Whether you want it spicy, cheesy, or topped with fresh veggies we have you covered!\n\nDuke Deals\n\n*All lunch deals include classic fries -OR- ranch fries + 22oz fountain drink. MWG bun available or can be served as a Burger Bowl.\n\nCheeseburger\n\nBurger Bowl\n\nChipotle Black Bean Burger\n\nChipotle Black Bean Burger Bowl\n\n*All breakfast deals include sandwich + French Toast sticks + 22oz fountain drink\n\nHam & Egg Sandwich\n\nBacon & Egg Sandwich\n\nAvocado & Egg Sandwich\n\nBurgers + Fries is open till 10 pm unless otherwise noted in the listed hours.",
     "image_from": "80c05905-3f3c-4fde-903a-5c36faec429a/M17111.jpg",
-    "image_write": "GP/team25/webapp/images/burgers-fries.jpg",
+    "image_write": "webapp/static/images/futureburgers-fries.jpg",
     "image_id": "80c05905-3f3c-4fde-903a-5c36faec429a",
     "image_name": "M17111.jpg",
-    "stations": {},
-    "periods_active": [],
+    "stations": {
+      "232755": "B+F"
+    },
+    "periods_active": [
+      13,
+      25,
+      16,
+      4
+    ],
     "directions": "Located inside Festival at 1301 Carrier Dr."
   },
   "chick-fil-a-at-festival": {
     "managers": {
       "0": {
-        "first_name": "Jacqueline",
-        "last_name": "Roberts",
-        "email": "roberts5jk@jmu.edu",
-        "phone": null
+        "first_name": "Jessica",
+        "last_name": "Kimmons",
+        "email": "kimmonsjl@jmu.edu",
+        "phone": "(540) 568-2524"
       }
     },
     "payment": [
-      "dining_dollars_gold",
-      "swipe",
-      "flex",
       "dining_dollars",
-      "card"
+      "card",
+      "swipe",
+      "flex"
     ],
-    "description": "Whether you're hungry for a hand-breaded Chick-fil-A chicken sandwich, salad, or wrap prepared fresh daily, Chick-fil-A is here to serve you delicious food made with quality ingredients. Chick-fil-A is a successful and popular brand in college and university settings, known for its fast service and convenient, portable food for students on the go.",
+    "description": "Whether you're hungry for a hand-breaded Chick-fil-A chicken sandwich, salad, or wrap prepared fresh daily, Chick-fil-A is here to serve you delicious food made with quality ingredients. Chick-fil-A is a successful and popular brand in college and university settings, known for its fast service and convenient, portable food for students on the go.\n\nInterested in Nutrition & Allergen information? Click here. \n\nIngredient or allergen questions? Please ask to speak with a manager. \n\nDuke Deals\n\n*All deals include a medium fry + 22oz fountain drink\n\n8-Count Nugget Combo\n\nOriginal Chicken Sandwich Combo\n\n",
     "image_from": "ee4791d3-87b3-4358-b138-b0d3d7d27fce/IMG_2744.jpg",
-    "image_write": "GP/team25/webapp/images/chick-fil-a-at-festival.jpg",
+    "image_write": "webapp/static/images/futurechick-fil-a-at-festival.jpg",
     "image_id": "ee4791d3-87b3-4358-b138-b0d3d7d27fce",
     "image_name": "IMG_2744.jpg",
     "stations": {},
@@ -396,27 +127,60 @@
     "managers": {
       "0": {
         "first_name": "Jacqueline",
-        "last_name": "Roberts",
+        "last_name": "Foulke",
         "email": "roberts5jk@jmu.edu",
         "phone": null
       }
     },
     "payment": [
-      "duke_deal",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "Whether you're hungry for a hand-breaded Chick-fil-A chicken sandwich, salad, or wrap prepared fresh daily, Chick-fil-A is here to serve you delicious food made with quality ingredients. Chick-fil-A is a successful and popular brand in college and university settings, known for its fast service and convenient, portable food for students on the go.",
+    "description": "Whether you're hungry for a hand-breaded Chick-fil-A chicken sandwich, salad, or wrap prepared fresh daily, Chick-fil-A is here to serve you delicious food made with quality ingredients. Chick-fil-A is a successful and popular brand in college and university settings, known for its fast service and convenient, portable food for students on the go.\n\nInterested in Nutrition & Allergen information? Click here. \n\nIngredient or allergen questions? Please ask to speak with a manager.\n\nDuke Deals \n\n\n\n*All deals include a medium fry + fountain drink \n\n8-count nugget combo\n\nOriginal chicken sandwich combo\n\n\n\n",
     "image_from": "b25eb6bb-eece-40c8-853f-b77ebfb2c036/IMG_0458.jpg",
-    "image_write": "GP/team25/webapp/images/chick-fil-a-in-d-hall.jpg",
+    "image_write": "webapp/static/images/futurechick-fil-a-in-d-hall.jpg",
     "image_id": "b25eb6bb-eece-40c8-853f-b77ebfb2c036",
     "image_name": "IMG_0458.jpg",
     "stations": {},
     "periods_active": [],
     "directions": "Located on the first floor of D-Hall"
   },
-  "dukes-scoops": {
+  "corner-bistro": {
+    "managers": {
+      "0": {
+        "first_name": "Kari",
+        "last_name": "Harper",
+        "email": "lugarkl@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "dining_dollars",
+      "duke_deal",
+      "card",
+      "flex"
+    ],
+    "description": "The Corner Bistro at Memorial Hall is located in the heart of the former Harrisonburg High School, featuring Java City Coffee and a bistro menu complete with a make-your-own deli, grill & soup menu. Hot entrees include: chicken tenders, hamburgers, cheeseburgers, veggie burgers, quesadillas, and sides. The newly renovated dining location also includes a variety of snack and beverage items. More than a grab and go location, enjoy the inviting dining and comfortable study spaces—whether you're alone or in a group.\n\nDuke Deals \n\n*All Duke Deals include chips or whole fruit + 22 oz fountain drink\n\nTurkey & Swiss Sub\n\nHam & American Sub\n\nTuna Salad Sub\n\nChicken & Cheddar Sub\n\nItalian Sub\n\nFour Cheese Sub\n\nMalibu Burger\n\nHamburger/Cheeseburger + fries + drink\n\n3 Piece Chicken Tender + fries + drink\n\nHalal Grilled Chicken Quesadilla + fries + drink\n\nCheese Quesadilla + fries + drink\n\nPhilly Cheesesteak + fries + drink\n\nBacon, Egg & Cheese Biscuit or Croissant + choice of fruit or hashbrown + 22 oz fountain drink\n\nSausage, Egg & Cheese Biscuit or Croissant + choice of fruit or hashbrown + 22 oz fountain drink\n\n\n\n",
+    "image_from": "ae6014ba-1e3c-44eb-aaae-3c6432ba1e94/IMG_0755.jpg",
+    "image_write": "webapp/static/images/futurecorner-bistro.jpg",
+    "image_id": "ae6014ba-1e3c-44eb-aaae-3c6432ba1e94",
+    "image_name": "IMG_0755.jpg",
+    "stations": {
+      "6204": "Grill",
+      "6201": "Deli",
+      "6207": "Soup Station"
+    },
+    "periods_active": [
+      13,
+      25,
+      16,
+      4
+    ],
+    "directions": "Located inside Memorial Hall"
+  },
+  "d-hall": {
     "managers": {
       "0": {
         "first_name": "Craig",
@@ -426,14 +190,78 @@
       }
     },
     "payment": [
-      "duke_deal",
-      "flex",
       "dining_dollars",
-      "card"
+      "card",
+      "swipe",
+      "flex"
+    ],
+    "description": "D-Hall sits in the middle of campus and offers an all-you-care-to eat dining hall. Stay tuned to the BeInvolved app or @JMUDining on Insta to learn about upcoming events.\n\nDoor Rates:\n\nLunch/Dinner: $16.75 + tax\n\nBreakfast: $12 + tax\n\nNOTE: From 2:30pm-4:30pm, the following stations are open: Upper Crust, Pizza, Salad Bar, Hen & Harvest, Fire Work, Bakery. Homestyle is open 2:30pm-4:30pm on Thursdays and Fridays.\n\nTo book either Garage Room A or B, contact bahr-deborah@aramark.com.",
+    "image_from": "6c5cabb7-d181-4680-a9b7-46ff13cddeec/D_Hall.jpg",
+    "image_write": "webapp/static/images/futured-hall.jpg",
+    "image_id": "6c5cabb7-d181-4680-a9b7-46ff13cddeec",
+    "image_name": "D_Hall.jpg",
+    "stations": {
+      "2907": "Homestyle",
+      "280897": "Smoothies",
+      "2931": "True Balance",
+      "2922": "Mixto",
+      "2910": "Pizza ",
+      "2937": "Pasta Bar at Pizza",
+      "2919": "Plant Forward Bowls",
+      "2934": "Plant Forward Entrees",
+      "2904": "Bakery ",
+      "274217": "ChopstiX",
+      "2901": "Fire Wok",
+      "2928": "Noodle Bowl",
+      "2925": "Hen & Harvest ",
+      "2913": "Upper Crust",
+      "2916": "Produce ",
+      "2940": "Burger World",
+      "209413": "Personal Pan Pizza",
+      "225298": "Potato Bar",
+      "225301": "Protein Bowl Rotating Concept",
+      "225304": "Dogs of JMU (Name Change if it needs to be)",
+      "225310": "Potato Bar",
+      "238718": "Potato Rotating Concept",
+      "238862": "Rotating Potato Concept",
+      "239690": "Potato Concept",
+      "273998": "Rotating Concept Fry Bar",
+      "275735": "Rotating Concept Potato Bar",
+      "275891": "Rotating Concept Dogs of D-Hall",
+      "278248": "Rotating Concept BBQ Bar",
+      "292715": "Side - Wok",
+      "295808": "Duke Dogs",
+      "295814": "Potato Bar",
+      "296069": "Loaded Frech Fries",
+      "296645": "Bluestone BBQ"
+    },
+    "periods_active": [
+      10,
+      13,
+      25,
+      16,
+      4
+    ],
+    "directions": "beside Warner Commons"
+  },
+  "dukes-scoops": {
+    "managers": {
+      "0": {
+        "first_name": "Jacqueline",
+        "last_name": "Foulke",
+        "email": "roberts5jk@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "dining_dollars",
+      "duke_deal",
+      "card",
+      "flex"
     ],
     "description": "Got a sweet tooth? Try Dukes Scoops!! \n\nDukes Scoops is located inside Market 64 (1st floor D-Hall). Enjoy some delicious ice cream and sundaes. Ask about the featured flavor of the week! \n\nWe also have three delicious Cheesesteaks as Duke Deals\n\nPhilly Cheesesteak\n\nPhilly Cheesesteak Quesadilla\n\nChicken Cheesesteak\n\n",
     "image_from": "b372950c-6dda-47f7-ab73-2833d283791e/IMG_0621.jpg",
-    "image_write": "GP/team25/webapp/images/dukes-scoops.jpg",
+    "image_write": "webapp/static/images/futuredukes-scoops.jpg",
     "image_id": "b372950c-6dda-47f7-ab73-2833d283791e",
     "image_name": "IMG_0621.jpg",
     "stations": {},
@@ -450,38 +278,85 @@
       }
     },
     "payment": [
-      "flex",
       "dining_dollars",
-      "cash",
-      "card"
+      "card",
+      "flex"
     ],
-    "description": "Dunkin' &reg; features freshly baked donuts, sandwiches and signature coffee and espresso beverages.",
+    "description": "Dunkin' ® features freshly baked donuts, sandwiches and signature coffee and espresso beverages.\n\nInterested in Nutrition & Allergen information? Click here. ",
     "image_from": "707093b6-9c26-4d6d-8dbb-576a8d28e4b3/DSC01774.jpg",
-    "image_write": "GP/team25/webapp/images/dunkin-donuts-in-ssc.jpg",
+    "image_write": "webapp/static/images/futuredunkin-donuts-in-ssc.jpg",
     "image_id": "707093b6-9c26-4d6d-8dbb-576a8d28e4b3",
     "image_name": "DSC01774.jpg",
     "stations": {},
     "periods_active": [],
     "directions": "On the second floor of the Student Success Center"
   },
-  "freshens-fresh-food-studio-in-d-hall": {
+  "e-hall": {
     "managers": {
       "0": {
-        "first_name": "Craig",
-        "last_name": "Dively",
-        "email": "divelyct@jmu.edu",
-        "phone": "(540) 568-7526"
+        "first_name": "Jenny",
+        "last_name": "Himmelman",
+        "email": "himmeljx@jmu.edu",
+        "phone": "540-568-4309"
       }
     },
     "payment": [
-      "duke_deal",
-      "flex",
       "dining_dollars",
-      "card"
+      "card",
+      "swipe",
+      "flex"
     ],
-    "description": "Fresh&euml;ns Fresh Food Studio offers food with a purpose. From 100% clean smoothies to fresh tossed salads and globally inspired dishes, Freshens offers healthy, prepared to order food inspired by fresh ingredients.",
+    "description": "E-Hall is your go-to all-you-care-to-eat facility on the East side of campus and is popping with activity every day! Stay tuned to BeInvolved or @JMUDining on Insta to learn about upcoming events.\n\nDoor Rates:\n\nLunch/Dinner: $16.75 + tax\n\nBreakfast: $12 + tax\n\nNOTE: From 2:30pm-4:30pm, the following stations are open: Pizza, Deli, Tavolino, Bakery, Salad Bar, Grill.\n\n",
+    "image_from": "11ba3d59-b528-4c39-9787-458ccb0ad8d2/IMG_0346.jpg",
+    "image_write": "webapp/static/images/futuree-hall.jpg",
+    "image_id": "11ba3d59-b528-4c39-9787-458ccb0ad8d2",
+    "image_name": "IMG_0346.jpg",
+    "stations": {
+      "6153": "Iron Skillet",
+      "6168": "Tavolino",
+      "6156": "Burger Grill",
+      "6171": "Global Kitchen",
+      "6165": "Hearth Rotation",
+      "6189": "MTO Omelets ",
+      "6183": "Hearth",
+      "6177": "Deli",
+      "6186": "Soup",
+      "6162": "True Balance",
+      "6159": "Produce",
+      "6174": "Spice Rack",
+      "6150": "Bakery",
+      "6180": "Waffle Bar",
+      "296012": "Mexican",
+      "296015": "Global Kitchen 2",
+      "305793": "Promotions"
+    },
+    "periods_active": [
+      10,
+      13,
+      25,
+      16,
+      4
+    ],
+    "directions": "Located at 1681 Carrier Dr."
+  },
+  "freshens-fresh-food-studio-in-d-hall": {
+    "managers": {
+      "0": {
+        "first_name": "Jacqueline",
+        "last_name": "Foulke",
+        "email": "roberts5jk@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "dining_dollars",
+      "duke_deal",
+      "card",
+      "flex"
+    ],
+    "description": "Freshëns Fresh Food Studio offers food with a purpose. From 100% clean smoothies to fresh tossed salads and globally inspired dishes, Freshens offers healthy, prepared to order food inspired by fresh ingredients. \n\nNOTE* JMU Dining's Freshëns locations use Sunbutter in place of peanut butter in recipes. \n\nInterested in Nutrition & Allergen information? Click here. \n\nIngredient or allergen questions? Please ask to speak with a manager.\n\nDuke Deals\n\n\n\nAcai Bowl\n\nWellness Smoothies (24 oz only)\n\nClassic Smoothies (24 oz only)\n\n\n\n*All deals listed below include a 22 oz fountain drink \n\nBBQ Bacon Chix Flatbread\n\nChipotle Chicken Flatbread\n\nSanta Fe Flatbread\n\nSupreme Crunchadilla\n\nChicken Bacon Ranch Crunchadilla\n\nChicken Avocado Crunchadilla\n\nKC BBQ Bowl\n\nThai Chicken Bowl\n\nBaja Queso Bowl\n\nMexican Rice Bowl\n\nChicken Bacon Ranch Melt\n\nMade Without Gluten (MWG) Duke Deals\n\nAcai Bowl\n\nWellness Smoothies (24oz only)\n\nClassic Smoothies (24oz only)\n\nBaja Queso Rice Bowl- includes 22oz fountain drink\n\nMexican Rice Bowl- includes a 22oz fountain drink\n\n\n\n",
     "image_from": "4944aac8-8b6e-4ecc-a616-4d826369413f/IMG_0451.jpg",
-    "image_write": "GP/team25/webapp/images/freshens-fresh-food-studio-in-d-hall.jpg",
+    "image_write": "webapp/static/images/futurefreshens-fresh-food-studio-in-d-hall.jpg",
     "image_id": "4944aac8-8b6e-4ecc-a616-4d826369413f",
     "image_name": "IMG_0451.jpg",
     "stations": {},
@@ -491,27 +366,54 @@
   "freshens-urec": {
     "managers": {
       "0": {
-        "first_name": "Claire",
-        "last_name": "Strack",
-        "email": "Strackcm@jmu.edu",
-        "phone": "(540) 568-2567"
+        "first_name": "Katelynn",
+        "last_name": "Moyer",
+        "email": "moyerkc@jmu.edu",
+        "phone": "540-568-4169"
       }
     },
     "payment": [
-      "duke_deal",
-      "cash",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "Freshens Fresh Food Kitchen offers fresh, healthy, prepared-to-order food inspired by fresh ingredients and authentic flavors. Serving 100% clean blended fruit smoothies and acai bowls, tossed salads, globally inspired rice bowls, and more.",
+    "description": "Freshens Fresh Food Kitchen offers fresh, healthy, prepared-to-order food inspired by fresh ingredients and authentic flavors. Serving 100% clean blended fruit smoothies and acai bowls, tossed salads, globally inspired rice bowls, and more.\n\nNOTE* JMU Dining's Freshëns locations use Sunbutter in place of peanut butter in recipes. \n\nInterested in Nutrition & Allergen information? Click here. \n\nIngredient or allergen questions? Please ask to speak with a manager.\n\nDuke Deals\n\nAcai Bowl\n\nWellness Smoothies (24 oz only)\n\nClassic Smoothies (24 oz only)\n\n\n*All deals listed below include a 22 oz fountain drink\n\nBBQ Bacon Chix Flatbread\n\nChicken Bacon Ranch Crunchadilla\n\nChicken Avocado Crunchadilla\n\nChipotle Chicken Flatbread\n\nKC BBQ Bowl\n\nThai Chicken Rice Bowl\n\nBaja Queso Rice Bowl\n\nMexican Rice Bowl\n\nSanta Fe Flatbread\n\nChicken Bacon Ranch Melt\n\n\n\nMade Without Gluten (MWG) Duke Deals\n\nAcai Bowl\n\nWellness Smoothies (24oz only)\n\nClassic Smoothies (24oz only)\n\nBaja Queso Rice Bowl- includes 22oz fountain drink\n\nMexican Rice Bowl- includes a 22oz fountain drink\n\n",
     "image_from": "ac224df1-498d-4eda-852d-e5e93b267e3f/IMG_0700.jpg",
-    "image_write": "GP/team25/webapp/images/freshens-urec.jpg",
+    "image_write": "webapp/static/images/futurefreshens-urec.jpg",
     "image_id": "ac224df1-498d-4eda-852d-e5e93b267e3f",
     "image_name": "IMG_0700.jpg",
     "stations": {},
     "periods_active": [],
     "directions": "Located inside UREC at 701 Driver Dr."
+  },
+  "heirloom-pizza-in-dukes-dining": {
+    "managers": {
+      "0": {
+        "first_name": "Joshua",
+        "last_name": "Windley",
+        "email": "windley-joshua@aramark.com",
+        "phone": null
+      }
+    },
+    "payment": [
+      "dining_dollars",
+      "duke_deal",
+      "card",
+      "flex"
+    ],
+    "description": "Look for fresh ingredients and our new and improved pizza dough. The menu includes classic favorites and features many limited-time-offers. \n\nDuke Deals\n\n*All deals either include: half pizza + side salad + 22 oz fountain OR whole pizza + 22 oz fountain drink\n\nCheese Pizza\n\nPepperoni Pizza\n\nBBQ Chicken Pizza\n\nSausage Pizza\n\nNOTE: Made Without Gluten Pizza Crust available for all listed options.",
+    "image_from": "f34846bd-7fbc-4b03-bea0-163b7c05bd51/DSC02809.jpg",
+    "image_write": "webapp/static/images/futureheirloom-pizza-in-dukes-dining.jpg",
+    "image_id": "f34846bd-7fbc-4b03-bea0-163b7c05bd51",
+    "image_name": "DSC02809.jpg",
+    "stations": {
+      "2769": "Heirloom Pizza"
+    },
+    "periods_active": [
+      25
+    ],
+    "directions": "Located on the second floor of Dukes Dining"
   },
   "ignite": {
     "managers": {
@@ -523,41 +425,82 @@
       }
     },
     "payment": [
-      "dining_dollars_gold",
-      "swipe",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "Information coming soon ...",
+    "description": "Freshly made pizza and pasta dishes, what's not to love?\n\nDuke Deals\n\nIncludes a 22oz fountain drink. MWG Crust & MWG Penne available.\n\nCheese Pizza\n\nPepperoni Pizza\n\nPlant-Based Cheese Pizza\n\nCreate Your Own PastaMWG Base: MWG Penne\n\nMWG Sauce: Marinara\n\nMWG Proteins: Herbed Chicken\n\nVegetable/Cheese toppings are all MWG\n\n\n\n",
     "image_from": "076724f1-ed42-40d0-9aa4-93756f6ca082/PEPPORONIPIZZA.jpg",
-    "image_write": "GP/team25/webapp/images/ignite.jpg",
+    "image_write": "webapp/static/images/futureignite.jpg",
     "image_id": "076724f1-ed42-40d0-9aa4-93756f6ca082",
     "image_name": "PEPPORONIPIZZA.jpg",
-    "stations": {},
-    "periods_active": [],
+    "stations": {
+      "232737": "Ignite"
+    },
+    "periods_active": [
+      13,
+      25,
+      16,
+      4
+    ],
     "directions": null
   },
-  "jemmy-s-corner-market-and-pod": {
+  "jmu-java-city-d-hall": {
     "managers": {
       "0": {
-        "first_name": "Claire",
-        "last_name": "Strack",
-        "email": "Strackcm@jmu.edu",
-        "phone": "(540) 568-2567"
+        "first_name": "Jacqueline",
+        "last_name": "Foulke",
+        "email": "roberts5jk@jmu.edu",
+        "phone": null
       }
     },
     "payment": [
       "duke_deal",
       "flex",
       "dining_dollars",
-      "card"
+      "card",
+      "swipe"
     ],
-    "description": "Convenience store with grocery needs, health and beauty supplies, snacks and beverages\n\nJemmy's offers Starship Delivery Sunday-Thursday, 5 pm - 12 am.",
-    "image_from": "ca3cca44-2038-4ba6-ba40-608cc416d69e/IMG_1526.jpg",
-    "image_write": "GP/team25/webapp/images/jemmy-s-corner-market-and-pod.jpg",
-    "image_id": "ca3cca44-2038-4ba6-ba40-608cc416d69e",
-    "image_name": "IMG_1526.jpg",
+    "description": "Java City believes in making better coffee and doing it in a way that’s better for farmers and the environment. Enjoy Java City’s hand-crafted specialty coffee drinks made from responsibly sourced coffee from farms focused on environmental protection, community.\n\n\nDuke Deals\n\n*All deals include a choice hashbrown OR fruit + a drip coffee or 22 oz fountain drink\n\nEgg & Cheese\n\nHam, Egg & Cheese\n\nSausage, Egg & Cheese\n\nBacon, Egg & Cheese\n\nSunrise Caprese\n\nVegan Delight\n\nChoice of pastry, donut, hashbrown or fruit + a small drip coffee or 22oz fountain drink\n\n\n\n",
+    "image_from": "5823ed62-18f1-44ca-b556-2bca2f72122c/IMG_0471.jpg",
+    "image_write": "webapp/static/images/futurejmu-java-city-d-hall.jpg",
+    "image_id": "5823ed62-18f1-44ca-b556-2bca2f72122c",
+    "image_name": "IMG_0471.jpg",
+    "stations": {
+      "2763": "Sandwich",
+      "2778": "Pastry Case",
+      "289846": "BYO",
+      "289849": "Extras"
+    },
+    "periods_active": [
+      13,
+      25,
+      16,
+      4
+    ],
+    "directions": "On the first floor of D-Hall"
+  },
+  "jemmy-s-corner-market-and-pod": {
+    "managers": {
+      "0": {
+        "first_name": "Katelynn",
+        "last_name": "Moyer",
+        "email": "moyerkc@jmu.edu",
+        "phone": "540-568-4169"
+      }
+    },
+    "payment": [
+      "dining_dollars",
+      "duke_deal",
+      "card",
+      "flex"
+    ],
+    "description": "Convenience store with grocery needs, health and beauty supplies, snacks and beverages\n\nJemmy's offers Starship Delivery Sunday-Thursday, 5 pm - 12 am. \n\nDuke Deals \n\n*All deals include a beverage of $2.99 or less + a side of fruit or chips\n\nRoasted Veggie\n\nPB&J Wedge\n\nHam & Cheese Pinwheel\n\nChicken Salad Wedge\n\nBaja Inspired Chicken Wrap\n\nTuna Salad Sub\n\nMini Caesar Salad\n\nMini Garden Salad\n\n\n\n",
+    "image_from": "59e7cdc0-11dc-4bad-80de-8408518828ca/IMG_1541___Edited___Edited.jpg",
+    "image_write": "webapp/static/images/futurejemmy-s-corner-market-and-pod.jpg",
+    "image_id": "59e7cdc0-11dc-4bad-80de-8408518828ca",
+    "image_name": "IMG_1541___Edited___Edited.jpg",
     "stations": {},
     "periods_active": [],
     "directions": null
@@ -572,18 +515,25 @@
       }
     },
     "payment": [
-      "duke_deal",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "Lakeside Cafe offers bagels, sandwiches, and coffees at the Daley Grind with a lovely view of Newman Lake!",
+    "description": "Lakeside Cafe offers bagels, sandwiches, and coffees at the Daley Grind with a lovely view of Newman Lake!\n\nDuke Deals\n\n*All deals include a 22 oz fountain drink + side of choice\n\nThe Sunny\n\nThe Smokey\n\nThe Veggie\n\nChicken N Waffle Sandwich\n\nToasted Bagel\n\nBuild Your Own Sandwich\n\nThe Italian\n\nCrispy Chicken Sandwich\n\nSpicy Chicken Sandwich\n\nTurkey Cali Club\n\nChicken Caesar Wrap\n\nCOB BLT\n\nPlant-Based Chicken Wrap\n\nChicken Tenders\n\nBuild Your Own Sandwich\n\nMade Without Gluten (MWG) Duke Deals\n\nIncludes a side + 22oz fountain drink. MWG bagel & wrap available.\n\nThe Sunny\n\nThe Smokey\n\nThe Veggie\n\nMWG Bagel w/ Cream Cheese\n\nThe Italian\n\nThe Havana\n\nThe Honey\n\nThe Turkey Cali Club\n\nCOB BLT\n\nBuild Your Own Bagel\n\nBuild Your Own Sandwich\n\nChicken Caesar Salad- remove croutons.\n\n\n\n",
     "image_from": "7b3fb71b-dd54-4435-aaff-12e2f4ed66a2/IMG_0646.jpg",
-    "image_write": "GP/team25/webapp/images/lakeside-cafe.jpg",
+    "image_write": "webapp/static/images/futurelakeside-cafe.jpg",
     "image_id": "7b3fb71b-dd54-4435-aaff-12e2f4ed66a2",
     "image_name": "IMG_0646.jpg",
-    "stations": {},
-    "periods_active": [],
+    "stations": {
+      "305727": "Special's"
+    },
+    "periods_active": [
+      13,
+      25,
+      16,
+      4
+    ],
     "directions": "Located on the ground floor of Hartman Hall (School of Business)"
   },
   "madison-press": {
@@ -596,20 +546,62 @@
       }
     },
     "payment": [
-      "dining_dollars_gold",
-      "swipe",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "Informatuion coming soon ...",
+    "description": "Featuring fresh deli sandwiches.\n\nDuke Deals\n\n*Sandwich deals include house made chips + 22oz fountain drink -OR- a fruit cup + 22oz fountain drink. MWG wrap offered for every sandwich & wrap.\n\nChipotle Cheesesteak\n\nTurkey Avocado BLT\n\nChicken Bacon Caesar Wrap\n\nItalian Panini\n\nVirginia Cuban\n\nJalapeno Ranch Garden Wrap\n\n*All salad deals include salad + 22 oz drink\n\nCaesar Salad\n\nGreek Salad\n\nSouthwest Salad\n\n",
     "image_from": "75fcab5b-2cf2-41fa-bbb1-3094d975522d/IMG_3040.jpg",
-    "image_write": "GP/team25/webapp/images/madison-press.jpg",
+    "image_write": "webapp/static/images/futuremadison-press.jpg",
     "image_id": "75fcab5b-2cf2-41fa-bbb1-3094d975522d",
     "image_name": "IMG_3040.jpg",
-    "stations": {},
-    "periods_active": [],
+    "stations": {
+      "232785": "Press",
+      "234119": "Festival Pod"
+    },
+    "periods_active": [
+      13,
+      25,
+      16,
+      4
+    ],
     "directions": null
+  },
+  "market-64": {
+    "managers": {
+      "0": {
+        "first_name": "Jacqueline",
+        "last_name": "Foulke",
+        "email": "roberts5jk@jmu.edu",
+        "phone": null
+      }
+    },
+    "payment": [
+      "dining_dollars",
+      "duke_deal",
+      "card",
+      "flex"
+    ],
+    "description": "Featuring barbecue bowls, gourmet sandwiches, soup, Grab-and-Go, and Java City® coffee and espresso.\n\nFun Fact: The name Market 64 pays homage to 1964, the year the original D-Hall was constructed.\n\nDuke Deals\n\n*All deals include 22 oz fountain drink + a pickle spear\n\nPhilly Cheesesteak\n\nPhilly Cheesesteak Quesadilla\n\nChicken Cheesesteak\n\n*All deals include 22 oz fountain drink or milk\n\nFalafel Pita\n\nGyro Pita\n\nChicken Pita\n\nGrilled Chicken Salad\n\nFalafel Salad\n\nPita Nacho Bowl\n\n*All deals include 22 oz fountain drink + chips\n\nBlue Ridge Torta\n\nHealthy Hiker\n\nLa Prima Italian Sub\n\nWholesome Shawarma Veg Wrap\n\nValley Quesadilla\n\nRiver Day\n\nDuke Club\n\nMade Without Gluten (MWG) Duke Deals\n\nM64- Mediterranean- includes 22oz fountain drink or milkFalafel Salad\n\nGreek Chicken Salad\n\n\n\nM64- Deli- includes 22oz fountain drink and chips. MWG bread available.La Prima Italian Sub\n\nBlue Ridge Torta\n\nHealthy Hiker\n\nRiver Day\n\nDuke Club\n\nWhole Shawarma Veg Wrap- request on MWG bread.\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "image_from": "43daaf76-d22a-4de2-9a25-f8b700dd6b2a/IMG_0622.jpg",
+    "image_write": "webapp/static/images/futuremarket-64.jpg",
+    "image_id": "43daaf76-d22a-4de2-9a25-f8b700dd6b2a",
+    "image_name": "IMG_0622.jpg",
+    "stations": {
+      "2730": "The Grill",
+      "2733": "The Deli",
+      "2715": "Salad Bar",
+      "2721": "Soup Bar",
+      "2712": "Scoops"
+    },
+    "periods_active": [
+      13,
+      25,
+      16,
+      4
+    ],
+    "directions": "Located on the first floor of D-Hall"
   },
   "merge-coffee": {
     "managers": {
@@ -621,14 +613,13 @@
       }
     },
     "payment": [
-      "flex",
       "dining_dollars",
-      "cash",
-      "card"
+      "card",
+      "flex"
     ],
     "description": "Enjoy the delicious coffee of Merge, a small local cafe, that is also now open on campus! Located in TDU (Taylor Down Under) \n\nMerge is known for their coffee sourcing ethics, learn more here\n\n",
     "image_from": "8ab36083-07b5-429b-af24-00c5c6a313d8/IMG_0742.jpg",
-    "image_write": "GP/team25/webapp/images/merge-coffee.jpg",
+    "image_write": "webapp/static/images/futuremerge-coffee.jpg",
     "image_id": "8ab36083-07b5-429b-af24-00c5c6a313d8",
     "image_name": "IMG_0742.jpg",
     "stations": {},
@@ -645,14 +636,13 @@
       }
     },
     "payment": [
-      "flex",
       "dining_dollars",
-      "cash",
-      "card"
+      "card",
+      "flex"
     ],
-    "description": "Mr. Chips is a campus tradition! Find grab & go sandwiches, frozen food, snacks, ice cream, medicine, personal hygiene, cleaning items and more! We Proudly Serve Starbucks, and bubble tea! You can use your dining dollars to pay for food items!",
+    "description": "Mr. Chips is a campus tradition! Find grab & go sandwiches, frozen food, snacks, ice cream, medicine, personal hygiene, cleaning items and more! We Proudly Serve Starbucks, and bubble tea! You can use your dining dollars to pay for food items! \n\nIntersted in Starbucks Nutrition & Allergen information? Click here. \n\nIngredient or allergen questions? Please ask to speak with a manager.",
     "image_from": "4392c042-f757-4991-b629-2483bbde3d64/IMG_6027.jpg",
-    "image_write": "GP/team25/webapp/images/mr-chips.jpg",
+    "image_write": "webapp/static/images/futuremr-chips.jpg",
     "image_id": "4392c042-f757-4991-b629-2483bbde3d64",
     "image_name": "IMG_6027.jpg",
     "stations": {},
@@ -669,13 +659,13 @@
       }
     },
     "payment": [
-      "flex",
       "dining_dollars",
-      "card"
+      "card",
+      "flex"
     ],
     "description": "Grab and go sandwiches, salads, fruit, snacks, bottles beverages, coffee, and more.",
     "image_from": "666c2cc9-028a-445e-8be4-f736e244f8cc/IMG_0774.jpg",
-    "image_write": "GP/team25/webapp/images/pod-in-forbes-center.jpg",
+    "image_write": "webapp/static/images/futurepod-in-forbes-center.jpg",
     "image_id": "666c2cc9-028a-445e-8be4-f736e244f8cc",
     "image_name": "IMG_0774.jpg",
     "stations": {},
@@ -685,21 +675,21 @@
   "pod-in-jennings-hall": {
     "managers": {
       "0": {
-        "first_name": "Claire",
-        "last_name": "Strack",
-        "email": "Strackcm@jmu.edu",
-        "phone": "(540) 568-2567"
+        "first_name": "Katelynn",
+        "last_name": "Moyer",
+        "email": "moyerkc@jmu.edu",
+        "phone": "540-568-7216"
       }
     },
     "payment": [
-      "duke_deal",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "Grab & go sandwiches, salads, fruit, snacks, bottled beverages, coffee, and more.",
+    "description": "Grab & go sandwiches, salads, fruit, snacks, bottled beverages, coffee, and more.\n\nDuke Deals \n\n*All deals include choice of entree, beverage of $3.49 or less + side of chips or fruit\n\n\nRoasted Veggie\n\nPB & J Wedge\n\nHam & Cheese Pinwheel\n\nChicken Salad Wedge\n\nBaja Inspired Chicken Wrap\n\nTuna Salad Sub\n\nMini Caesar Salad\n\nMini Garden Salad\n\n\n\n",
     "image_from": "c2f8f14f-10ee-4bd0-8474-be0d380227e4/IMG_1495.jpg",
-    "image_write": "GP/team25/webapp/images/pod-in-jennings-hall.jpg",
+    "image_write": "webapp/static/images/futurepod-in-jennings-hall.jpg",
     "image_id": "c2f8f14f-10ee-4bd0-8474-be0d380227e4",
     "image_name": "IMG_1495.jpg",
     "stations": {},
@@ -716,15 +706,14 @@
       }
     },
     "payment": [
-      "duke_deal",
-      "cash",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "Grab & go sandwiches, salads, fruit, snacks, bottled beverages, coffee, and more.",
+    "description": "Grab & go sandwiches, salads, fruit, snacks, bottled beverages, coffee, and more.\n\nDuke Deals\n\n*All deals include a beverage of $2.99 or less + a side of fruit or chips\n\nRoasted Veggie\n\nPB&J Wedge\n\nHam & Cheese Pinwheel\n\nChicken Salad Wedge\n\nBaja Inspired Chicken Wrap\n\nTuna Salad Sub\n\nMini Caesar Salad\n\nMini Garden Salad\n\n\n\n",
     "image_from": "8a878827-d52c-4f64-81c9-ad787e353bc5/IMG_1472.jpg",
-    "image_write": "GP/team25/webapp/images/pod-in-king-hall.jpg",
+    "image_write": "webapp/static/images/futurepod-in-king-hall.jpg",
     "image_id": "8a878827-d52c-4f64-81c9-ad787e353bc5",
     "image_name": "IMG_1472.jpg",
     "stations": {},
@@ -734,21 +723,21 @@
   "panda-express": {
     "managers": {
       "0": {
-        "first_name": "Adam",
-        "last_name": "Updike",
-        "email": "updikeak@jmu.edu",
-        "phone": "(540) 569-4324"
+        "first_name": "Joshua",
+        "last_name": "Windley",
+        "email": "windley-joshua@aramark.com",
+        "phone": null
       }
     },
     "payment": [
-      "duke_deal",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "Welcome to our Chinese kitchen. Panda Express prepares American Chinese food fresh from the wok, from their signature Orange Chicken to bold limited time offerings. Chinese-inspired, American-made, Panda Express masterfully combines the tastiest from both worlds to give a delicious experience and craft dishes that taste and feel good!",
+    "description": "Welcome to our Chinese kitchen. Panda Express prepares American Chinese food fresh from the wok, from their signature Orange Chicken to bold limited time offerings. Chinese-inspired, American-made, Panda Express masterfully combines the tastiest from both worlds to give a delicious experience and craft dishes that taste and feel good!\n\nInterested in Nutrition & Allergen information? Click here. \n\nIngredient or allergen questions? Please ask to speak with a manager.\n\nDuke Deal\n\nEntree Bowl: includes one side item, one entree item, + 22 oz fountain drink\n\n",
     "image_from": "51fa7af6-c608-46c2-8506-263a234b939b/IMG_8822.jpg",
-    "image_write": "GP/team25/webapp/images/panda-express.jpg",
+    "image_write": "webapp/static/images/futurepanda-express.jpg",
     "image_id": "51fa7af6-c608-46c2-8506-263a234b939b",
     "image_name": "IMG_8822.jpg",
     "stations": {},
@@ -758,22 +747,21 @@
   "panera-in-dukes-dining": {
     "managers": {
       "0": {
-        "first_name": "Adam",
-        "last_name": "Updike",
-        "email": "updikeak@jmu.edu",
-        "phone": "(540) 569-4324"
+        "first_name": "Joshua",
+        "last_name": "Windley",
+        "email": "windley-joshua@aramark.com",
+        "phone": null
       }
     },
     "payment": [
       "panera_gift_card",
-      "cash",
-      "flex",
       "dining_dollars",
-      "card"
+      "card",
+      "flex"
     ],
-    "description": "We believe in serving delicious, freshly prepared, clean dishes made with carefully selected ingredients that we would be proud to serve our own families. Our menu, crafted by chefs and bakers, features classic, comforting dishes, each with an intriguing twist.\n\nSave time by ordering ahead through Panera mobile app or website and selecting \"Pick-up\". You can pay with Dining Dollars!",
+    "description": "We believe in serving delicious, freshly prepared, clean dishes made with carefully selected ingredients that we would be proud to serve our own families. Our menu, crafted by chefs and bakers, features classic, comforting dishes, each with an intriguing twist.\n\nSave time by ordering ahead through Panera mobile app or website and selecting \"Pick-up\". You can pay with Dining Dollars! \n\nInterested in Nutrition & Allergen information? Click here. \n\nIngredient or allergen questions? Please ask to speak with a manager.\n\nDEPARTMENTAL ORDERS\n\nPlease email all bulk orders to Debbie Bahr, bahr-deborah@aramark.com a minimum of 2 days prior to requested pickup. (48 hour notice).\n\nOrders must be picked up at Panera. Please bring payment at time of pickup. ",
     "image_from": "1ba909b2-6376-44c9-aad7-fc2d2ba497b8/Panera_Bread_image_16x9.jpg",
-    "image_write": "GP/team25/webapp/images/panera-in-dukes-dining.jpg",
+    "image_write": "webapp/static/images/futurepanera-in-dukes-dining.jpg",
     "image_id": "1ba909b2-6376-44c9-aad7-fc2d2ba497b8",
     "image_name": "Panera_Bread_image_16x9.jpg",
     "stations": {},
@@ -783,45 +771,66 @@
   "starbucks-truck": {
     "managers": {
       "0": {
-        "first_name": "Brian",
-        "last_name": "King",
-        "email": "kingba@jmu.edu",
-        "phone": "(540) 568-4296"
+        "first_name": "Caroline",
+        "last_name": "Nelson",
+        "email": "nelsoncm@jmu.edu",
+        "phone": "540-568-4296"
       }
     },
     "payment": [
-      "flex",
       "dining_dollars",
-      "cash",
-      "card"
+      "card",
+      "flex"
     ],
-    "description": "Your full-service Starbucks offers high-quality coffees, hand-crafted espresso drinks, teas, and smoothies. With every cup, with every conversation, with every community&mdash;Starbucks nurtures the limitless possibilities of human connection.",
+    "description": "Your full-service Starbucks offers high-quality coffees, hand-crafted espresso drinks, teas, and smoothies. With every cup, with every conversation, with every community&mdash;Starbucks nurtures the limitless possibilities of human connection.\n\nInterested in Nutrition & Allergen information? Click here. \n\nIngredient or allergen questions? Please ask to speak with a manager.",
     "image_from": "df4cbdf4-a7ab-44de-bf42-cd6c76f5e53a/IMG_1417.jpg",
-    "image_write": "GP/team25/webapp/images/starbucks-truck.jpg",
+    "image_write": "webapp/static/images/futurestarbucks-truck.jpg",
     "image_id": "df4cbdf4-a7ab-44de-bf42-cd6c76f5e53a",
     "image_name": "IMG_1417.jpg",
     "stations": {},
     "periods_active": [],
     "directions": "Currently located between D-Hall and Gabbin Hall"
   },
-  "starbucks-at-rose-library": {
+  "starbucks-r-at-carrier-library": {
     "managers": {
       "0": {
-        "first_name": "Brian",
-        "last_name": "King",
-        "email": "kingba@jmu.edu",
-        "phone": "(540) 568-4296"
+        "first_name": "Caroline ",
+        "last_name": "Nelson",
+        "email": "nelsoncm@jmu.edu",
+        "phone": "540-568-4268"
       }
     },
     "payment": [
-      "flex",
       "dining_dollars",
-      "cash",
-      "card"
+      "card",
+      "flex"
     ],
-    "description": "Your full-service Starbucks offers high-quality coffees, hand-crafted espresso drinks, teas, smoothies, and a variety of pastries, pre-packaged snacks, and breakfast sandwiches. With every cup, with every conversation, with every community&mdash;Starbucks nurtures the limitless possibilities of human connection.",
+    "description": "Your full-service Starbucks offers high-quality coffees, hand-crafted espresso drinks, teas, smoothies, and a variety of pastries, pre-packaged snacks, and breakfast sandwiches. With every cup, with every conversation, with every community—Starbucks nurtures the limitless possibilities of human connection.",
+    "image_from": "a5604ef0-9478-4e4f-a743-4c2e81b1901a/STARBUCKSGENERICIMAGE.jpg",
+    "image_write": "webapp/static/images/futurestarbucks-r-at-carrier-library.jpg",
+    "image_id": "a5604ef0-9478-4e4f-a743-4c2e81b1901a",
+    "image_name": "STARBUCKSGENERICIMAGE.jpg",
+    "stations": {},
+    "periods_active": [],
+    "directions": null
+  },
+  "starbucks-at-rose-library": {
+    "managers": {
+      "0": {
+        "first_name": "Caroline",
+        "last_name": "Nelson",
+        "email": "nelsoncm@jmu.edu",
+        "phone": "540-568-4296"
+      }
+    },
+    "payment": [
+      "dining_dollars",
+      "card",
+      "flex"
+    ],
+    "description": "Your full-service Starbucks offers high-quality coffees, hand-crafted espresso drinks, teas, smoothies, and a variety of pastries, pre-packaged snacks, and breakfast sandwiches. With every cup, with every conversation, with every community—Starbucks nurtures the limitless possibilities of human connection.\n\nInterested in Nutrition & Allergen information? Click here.\n\nIngredient or allergen questions? Please ask to speak with a manager.",
     "image_from": "4854957c-e487-49de-b43c-d0c4481e7ed4/IMG_0441.jpg",
-    "image_write": "GP/team25/webapp/images/starbucks-at-rose-library.jpg",
+    "image_write": "webapp/static/images/futurestarbucks-at-rose-library.jpg",
     "image_id": "4854957c-e487-49de-b43c-d0c4481e7ed4",
     "image_name": "IMG_0441.jpg",
     "stations": {},
@@ -831,21 +840,21 @@
   "steak-n-shake": {
     "managers": {
       "0": {
-        "first_name": "Craig",
-        "last_name": "Dively",
-        "email": "divelyct@jmu.edu",
-        "phone": "(540) 568-7526"
+        "first_name": "Jacqueline",
+        "last_name": "Foulke",
+        "email": "roberts5jk@jmu.edu",
+        "phone": null
       }
     },
     "payment": [
-      "duke_deal",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "Steak &lsquo;N Shake&reg; features items such as Steakburgers, chicken fingers, crispy fries, classic and specialty milkshakes, featuring a late-night walk-up window.\n\nNOTE* Fries, onion rings, and chicken tenders are cooked in 100% beef tallow.",
+    "description": "Steak &lsquo;N Shake&reg; features items such as Steakburgers, chicken fingers, crispy fries, classic and specialty milkshakes, featuring a late-night walk-up window.\n\nNOTE* Fries, onion rings, and chicken tenders are cooked in 100% beef tallow. For more information, please click here to learn more. \n\nInterested in Nutrition & Allergen information? Click here. \n\nIngredient or allergen questions? Please ask to speak with a manager.\n\nDuke Deals \n\n*All deals include a side of fries + 22 oz fountain drink\n\nChicken Tenders\n\nVeggie Melt\n\nDouble Cheeseburger\n\nSteak Frank\n\nSteak Burger\n\n\n\n",
     "image_from": "9b00f5ac-d464-4b10-8600-1c21047a3d4e/Steak_N_Shake_image_16x9.jpg",
-    "image_write": "GP/team25/webapp/images/steak-n-shake.jpg",
+    "image_write": "webapp/static/images/futuresteak-n-shake.jpg",
     "image_id": "9b00f5ac-d464-4b10-8600-1c21047a3d4e",
     "image_name": "Steak_N_Shake_image_16x9.jpg",
     "stations": {},
@@ -862,20 +871,51 @@
       }
     },
     "payment": [
-      "duke_deal",
-      "cash",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "Subway is your go-to spot for fresh, affordable, and fully customizable subs, wraps, and salads&mdash;perfect for fueling up between classes or late-night study sessions. With tons of options and quick service, it&rsquo;s a smart choice for students who want something tasty, fast, and made just the way they like it.",
+    "description": "Subway is your go-to spot for fresh, affordable, and fully customizable subs, wraps, and salads—perfect for fueling up between classes or late-night study sessions. With tons of options and quick service, it’s a smart choice for students who want something tasty, fast, and made just the way they like it.\n\nInterested in Nutrition & Allergen information? Click here. \n\nIngredient or allergen questions? Please ask to speak with a manager.\n\nDuke Deals\n\n6\" Sub Combo, choice of turkey, ham, tuna, or veggie delight w/ chips + fountain drink\n\n",
     "image_from": "27c9df1d-943b-47fa-af47-60747ef7999f/Subway_image_16x9.jpg",
-    "image_write": "GP/team25/webapp/images/subway.jpg",
+    "image_write": "webapp/static/images/futuresubway.jpg",
     "image_id": "27c9df1d-943b-47fa-af47-60747ef7999f",
     "image_name": "Subway_image_16x9.jpg",
     "stations": {},
     "periods_active": [],
     "directions": "Located on the first floor of Grace St. Apartments"
+  },
+  "tacodillo": {
+    "managers": {
+      "0": {
+        "first_name": "Joshua",
+        "last_name": "Windley",
+        "email": "windley-joshua@aramark.com",
+        "phone": null
+      }
+    },
+    "payment": [
+      "dining_dollars",
+      "duke_deal",
+      "card",
+      "flex"
+    ],
+    "description": "Enjoy delicious Tex-Mex food! All menu items are a punch. Pick nachos, tacos or a quesadilla with your choice of protein.\n\n\n\nDuke Deals\n\n*All deals include a 22 oz fountain drink\n\nTacos + side of chips & salsa\n\nNachos + side of sour cream\n\nQuesadillas + side of chips, salsa & sour cream\n\nBurrito + side of chips & salsa & sour cream\n\nBurrito Bowl + side of sour cream\n\nTaco Salad\n\nMade Without Gluten Base: Cilantro Lime Rice (Burrito Bowl Only)\n\nMade Without Gluten Proteins: Ground Beef, Shredded Chicken, Black Beans, Shredded Beef\n\n\n\n\n\n\n",
+    "image_from": "e05718b6-a0d8-45a3-ad0f-aa9db59727ce/IMG_0526.jpg",
+    "image_write": "webapp/static/images/futuretacodillo.jpg",
+    "image_id": "e05718b6-a0d8-45a3-ad0f-aa9db59727ce",
+    "image_name": "IMG_0526.jpg",
+    "stations": {
+      "2772": "Tacodillo",
+      "305335": "LTO"
+    },
+    "periods_active": [
+      13,
+      25,
+      16,
+      4
+    ],
+    "directions": "Located on the third floor of Dukes Dining"
   },
   "tenders-love-chicken": {
     "managers": {
@@ -887,43 +927,40 @@
       }
     },
     "payment": [
-      "duke_deal",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "We’re passionate about chicken. We’re guessing you are too. We bring devotion to Chicken, with a dash of love and the highest quality ingredients, to craft the best chicken tenders out there. We believe chicken tenders are the perfect food—whether you dip them or put them on a bun.",
+    "description": "We’re passionate about chicken. We’re guessing you are too. We bring devotion to Chicken, with a dash of love and the highest quality ingredients, to craft the best chicken tenders out there. We believe chicken tenders are the perfect food—whether you dip them or put them on a bun.\n\nDuke Deals\n\n*All deals include fries + a 22 oz fountain drink\n\n3 Piece Tenders\n\n3 Piece Tenders w/ Honey Chipotle Drizzle\n\nOriginal Chicken Tender Sandwich\n\nChicken Sandwich w/ Honey Chipotle Sauce\n\n\n\n",
     "image_from": "29ce2e26-aa10-4b9f-83cd-75ae4249fc4b/IMG_0415.jpg",
-    "image_write": "GP/team25/webapp/images/tenders-love-chicken.jpg",
+    "image_write": "webapp/static/images/futuretenders-love-chicken.jpg",
     "image_id": "29ce2e26-aa10-4b9f-83cd-75ae4249fc4b",
     "image_name": "IMG_0415.jpg",
     "stations": {
       "2760": "Tenders, Love and Chicken"
     },
-    "periods_active": [
-      25,
-      16
-    ],
+    "periods_active": [],
     "directions": "Located inside Atlantic Union Bank Center"
   },
   "the-den-in-dukes-dining": {
     "managers": {
       "0": {
-        "first_name": "Adam",
-        "last_name": "Updike",
-        "email": "updikeak@jmu.edu",
-        "phone": "(540) 569-4324"
+        "first_name": "Joshua",
+        "last_name": "Windley",
+        "email": "windley-joshua@aramark.com",
+        "phone": null
       }
     },
     "payment": [
-      "duke_deal",
-      "flex",
       "dining_dollars",
-      "card"
+      "duke_deal",
+      "card",
+      "flex"
     ],
-    "description": "Welcome to The Den by Denny's, America's favorite diner. Where friends can meet up to chow down. Whenever. Whyever.",
+    "description": "Welcome to The Den by Denny's, America's favorite diner. Where friends can meet up to chow down. Whenever. Whyever.\n\nInterested in Nutrition & Allergen information? Click here. \n\nIngredient or allergen questions? Please ask to speak with a manager.\n\nDuke Deals \n\nThese Duke Deals include side of fries, sweet potato fries, or potato rounds + 22 oz fountain drink:\n\nBacon Egg and Cheese Melt\n\nBlack Bean Quinoa Wrap\n\nGuacamole Chicken Wrap\n\nFried Cheese Melt\n\n3 Piece Chicken Tenders\n\nChick-n-Bacon Brioche Melt\n\nLil Den Burger\n\nBlack Bean Lil Den Burger\n\nThese Duke Deals include a 22 oz fountain drink:\n\nGrand Slam\n\nFrench Toast Grand Slam\n\nSouthwest Chicken Salad\n\n\n\n",
     "image_from": "8c971b5a-da05-4773-b5a5-a0c97e6a618f/IMG_0512.jpg",
-    "image_write": "GP/team25/webapp/images/the-den-in-dukes-dining.jpg",
+    "image_write": "webapp/static/images/futurethe-den-in-dukes-dining.jpg",
     "image_id": "8c971b5a-da05-4773-b5a5-a0c97e6a618f",
     "image_name": "IMG_0512.jpg",
     "stations": {},

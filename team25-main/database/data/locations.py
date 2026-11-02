@@ -65,7 +65,7 @@ query getLocations(
     locationCategory: $location_category
     limit: $limit
     isFeatured: $isFeatured
-    sort: "featuredPriority DESC, name"
+    sort: "name"
   ) {
     commerceAttributes {
       uid
@@ -85,7 +85,6 @@ query getLocations(
       name
       wayfindingInstructions
       featuredLocation
-      featuredPriority
       teaserAssetRef {
         ... on AEM_ImageRef {
           _dynamicUrl
@@ -242,7 +241,7 @@ for loc_base in location_data:
 hours = remove_empty(hours)
 
 # Write to locations.json
-with open("locations.json", 'w') as f:
+with open("database/pgsql/locations.json", 'w') as f:
     json.dump(hours, f, indent=2)
 
 # pprint.pprint(hours)

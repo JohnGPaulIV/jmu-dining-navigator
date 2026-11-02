@@ -9,14 +9,14 @@ def download_image(image_id: str, file_name: str, output_file: str, full_path: b
     file_name  : file name requested from the service
     output_file: local output path or file name
     full_path  : if True, treat output_file as a full path; otherwise
-                 write into GP/team25/webapp/images/
+                 write into webapp/static/images/future
     """
     # Construct remote image URL
     url = f"https://images.elevate-dxp.com/adobe/assets/urn:aaid:aem:{image_id}/as/{file_name}"
     resp = requests.get(url)
 
     # Default local path (relative to project)
-    path = f"GP/team25/webapp/images/{output_file}"
+    path = f"webapp/images/future{output_file}"
 
     if resp.status_code == 200:
         if (full_path):

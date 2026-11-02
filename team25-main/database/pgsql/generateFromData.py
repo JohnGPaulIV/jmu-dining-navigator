@@ -15,7 +15,7 @@ from faker import Faker
 import random
 import re
 from enum import Enum
-
+import os
 import psycopg
 from psycopg.errors import UniqueViolation
 
@@ -139,13 +139,16 @@ special_schedules = {
     date(2026, 1, 18): "Fall Break 2025",
 }
 
+HOST = os.environ.get("HUNGRY_HOST")
+PASSWORD = os.environ.get("HUNGRY_PASSWORD")
+TEAM = os.environ.get("HUNGRY_TEAM")
 # -------------------------------------------------------------------
 # DB connection + global setup
 # -------------------------------------------------------------------
-con = psycopg.connect(host="localhost", port="5432", user="team25", dbname="team25")
+con = psycopg.connect(host=HOST, port="5432", user=TEAM, dbname=TEAM, password=PASSWORD)
 cur = con.cursor()
 
-BASE_PATH = "GP/team25/database/data/locations"
+BASE_PATH = "database/data/locations"
 fake = Faker()
 random.seed(0)
 
@@ -252,15 +255,27 @@ def create_dietary_restrictions():
 def create_meal_plans():
     """Create meal plan rows from meal_plans.json."""
     meal_plans = []
+    source_plans = imp_dicts[imported_files["meal_plans"]]
 
-    for idx, m in enumerate(imp_dicts[imported_files["meal_plans"]].keys()):
-        num_punches = imp_dicts[imported_files["meal_plans"]][m]["total_punches"].strip()
-        if num_punches == "":
-            num_punches = 0
+    for idx, (sku, plan) in enumerate(source_plans.items()):
+        raw_punches = plan.get("total_punches")
+
+        if raw_punches is None or str(raw_punches).strip() == "":
+            num_punches = None
+            print(
+                f"Meal plan {sku}: no punch count supplied; "
+                "storing NULL."
+            )
         else:
-            num_punches = int(num_punches)
+            try:
+                num_punches = int(str(raw_punches).strip())
+            except ValueError as exc:
+                raise ValueError(
+                    f"Meal plan {sku} has an unexpected "
+                    f"total_punches value: {raw_punches!r}"
+                ) from exc
 
-        meal_plans.append((idx, num_punches, imp_dicts[imported_files["meal_plans"]][m]["name"]))
+        meal_plans.append((idx, num_punches, plan["name"]))
 
     return meal_plans
 

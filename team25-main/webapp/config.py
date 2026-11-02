@@ -1,16 +1,20 @@
 """Configure application settings such as the database URI, secret key, etc."""
 
 import socket
+import os
 
 TEAM = "team25"
 
 # Determine whether connecting from on/off campus
-try:
-    socket.gethostbyname("data.cs.jmu.edu")
-    HOST = "data.cs.jmu.edu"
-except socket.gaierror:
-    HOST = "localhost"
+# try:
+#     socket.gethostbyname("data.cs.jmu.edu")
+#     HOST = "data.cs.jmu.edu"
+# except socket.gaierror:
+#     HOST = "localhost"
 
+HOST = os.environ.get("HUNGRY_HOST")
+PASSWORD = os.environ.get("HUNGRY_PASSWORD")
+TEAM = os.environ.get("HUNGRY_TEAM")
 
 # See https://flask-appbuilder.readthedocs.io/en/latest/config.html
 

@@ -356,5 +356,5 @@ for plan in start_plans:
         meal_plans[sku][att[0]] = att[1]
 
 # ====== WRITE OUTPUT FILE ======
-with open("meal_plans.json", "w") as f:
+with open("database/pgsql/meal_plans.json", "w") as f:
     json.dump(meal_plans, f, indent=2)

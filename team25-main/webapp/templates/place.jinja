@@ -11,64 +11,62 @@
 <div class="container" style="margin-bottom: 40px;">
 
   <!-- Header Section -->
-<div class="jumbotron header-flex" style="background-color: white !important; border-bottom: 4px solid #CBB677;">
-    
-    <div class="header-text">
-        <h2 style="margin-top: 0;">
-            <i class="fa fa-utensils" style="color: #450084;"></i>
-            {{ location.hall_name }}
-        </h2>
+  <div class="jumbotron location-header" style="background-color: white !important; border-bottom: 4px solid #CBB677;">
 
-        <p class="lead" style="font-size: 16px; margin-bottom: 5px;">
-            {{ location.address }}
-        </p>
-
-        {% if location.description %}
-        <p class="text-muted">{{ location.description }}</p>
-        {% endif %}
-    </div>
-
-    {% set img_slug = (location.image_name if location.image_name else (location.hall_name or 'location')|lower|replace(' ', '-')) %}
+    {% set img_slug = (location.image_name if location.image_name else (location.hall_name or
+    'location')|lower|replace(' ', '-')) %}
     {% set img_file = 'images/' ~ img_slug ~ '.jpg' %}
-    
-    <img src="{{ url_for('static', filename=img_file) }}"
-         alt="{{ location.hall_name }}"
-         class="place-image place-header-image">
-</div>
 
+    <img src="{{ url_for('static', filename=img_file) }}" alt="{{ location.hall_name }}"
+      class="place-image location-header-image">
 
-<h3 style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px;">
-  Today's Menu
-</h3>
+    <h2 style="margin-top: 0;">
+      <i class="fa fa-utensils" style="color: #450084;"></i>
+      {{ location.hall_name }}
+    </h2>
 
-{% if menu_items %}
-<div class="menu-grid">
-  {% for item in menu_items %}
-  <div class="menu-card-col">
-    <div class="menu-card">
+    <p class="lead" style="font-size: 16px; margin-bottom: 5px;">
+      {{ location.address }}
+    </p>
 
-      {% if item.duke_deal %}
-      <span class="badge-duke-deal"><i class="fa fa-star"></i> Duke Deal</span>
-      {% endif %}
-
-      <h4 class="menu-item-title">{{ item.item_name }}</h4>
-
-      <div class="menu-item-meta">
-        <span class="badge-meal-type">{{ item.meal_type }}</span>
-      </div>
-
-      <p class="menu-item-desc">
-        {{ item.description or "No description available." }}
-      </p>
-    </div>
+    {% if location.description %}
+    <p class="text-muted">{{ location.description }}</p>
+    {% endif %}
   </div>
-  {% endfor %}
-</div>
-{% else %}
-<div class="alert alert-warning">
-  <i class="fa fa-exclamation-circle"></i> No menu items available for this location today.
-</div>
-{% endif %}
+
+
+  <h3 style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 20px;">
+    Today's Menu
+  </h3>
+
+  {% if menu_items %}
+  <div class="menu-grid">
+    {% for item in menu_items %}
+    <div class="menu-card-col">
+      <div class="menu-card">
+
+        {% if item.duke_deal %}
+        <span class="badge-duke-deal"><i class="fa fa-star"></i> Duke Deal</span>
+        {% endif %}
+
+        <h4 class="menu-item-title">{{ item.item_name }}</h4>
+
+        <div class="menu-item-meta">
+          <span class="badge-meal-type">{{ item.meal_type }}</span>
+        </div>
+
+        <p class="menu-item-desc">
+          {{ item.description or "No description available." }}
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="alert alert-warning">
+    <i class="fa fa-exclamation-circle"></i> No menu items available for this location today.
+  </div>
+  {% endif %}
 </div>
 
 {% endblock %}

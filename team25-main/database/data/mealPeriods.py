@@ -47,7 +47,7 @@ for period in period_data:
     meal_info[period["name"]] = period["id"]
 
 # Save to file
-with open("periods.json", "w") as f:
+with open("database/pgsql/periods.json", "w") as f:
     json.dump(meal_info, f, indent=2)
 
 # Print nicely

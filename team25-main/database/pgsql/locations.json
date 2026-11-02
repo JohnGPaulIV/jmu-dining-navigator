@@ -1,306 +1,4 @@
 {
-  "d-hall": {
-    "schedule": {
-      "Standard": {
-        "Breakfast": {
-          "Monday": {
-            "open": "07:00",
-            "close": "11:00"
-          },
-          "Tuesday": {
-            "open": "07:00",
-            "close": "11:00"
-          },
-          "Wednesday": {
-            "open": "07:00",
-            "close": "11:00"
-          },
-          "Thursday": {
-            "open": "07:00",
-            "close": "11:00"
-          },
-          "Friday": {
-            "open": "07:00",
-            "close": "11:00"
-          }
-        },
-        "Brunch": {
-          "Saturday": {
-            "open": "10:00",
-            "close": "16:30"
-          },
-          "Sunday": {
-            "open": "10:00",
-            "close": "16:30"
-          }
-        },
-        "Lunch": {
-          "Monday": {
-            "open": "11:00",
-            "close": "16:30"
-          },
-          "Tuesday": {
-            "open": "11:00",
-            "close": "16:30"
-          },
-          "Wednesday": {
-            "open": "11:00",
-            "close": "16:30"
-          },
-          "Thursday": {
-            "open": "11:00",
-            "close": "16:30"
-          },
-          "Friday": {
-            "open": "11:00",
-            "close": "16:30"
-          }
-        },
-        "Dinner": {
-          "Monday": {
-            "open": "16:30",
-            "close": "21:00"
-          },
-          "Tuesday": {
-            "open": "16:30",
-            "close": "21:00"
-          },
-          "Wednesday": {
-            "open": "16:30",
-            "close": "21:00"
-          },
-          "Thursday": {
-            "open": "16:30",
-            "close": "21:00"
-          },
-          "Friday": {
-            "open": "16:30",
-            "close": "20:00"
-          },
-          "Saturday": {
-            "open": "16:30",
-            "close": "20:00"
-          },
-          "Sunday": {
-            "open": "16:30",
-            "close": "20:00"
-          }
-        }
-      },
-      "Fall Break 2025": {
-        "Breakfast": {
-          "Monday": {
-            "open": "07:00",
-            "close": "11:00"
-          },
-          "Tuesday": {
-            "open": "07:00",
-            "close": "11:00"
-          }
-        },
-        "Brunch": {
-          "Wednesday": {
-            "open": "10:00",
-            "close": "16:30"
-          },
-          "Thursday": {
-            "open": "10:00",
-            "close": "16:30"
-          },
-          "Friday": {
-            "open": "10:00",
-            "close": "16:30"
-          },
-          "Saturday": {
-            "open": "10:00",
-            "close": "16:30"
-          },
-          "Sunday": {
-            "open": "10:00",
-            "close": "16:30"
-          }
-        },
-        "Lunch": {
-          "Monday": {
-            "open": "11:00",
-            "close": "16:30"
-          },
-          "Tuesday": {
-            "open": "11:00",
-            "close": "16:30"
-          }
-        },
-        "Dinner": {
-          "Monday": {
-            "open": "16:30",
-            "close": "21:00"
-          },
-          "Tuesday": {
-            "open": "16:30",
-            "close": "20:00"
-          },
-          "Wednesday": {
-            "open": "16:30",
-            "close": "20:00"
-          },
-          "Thursday": {
-            "open": "16:30",
-            "close": "20:00"
-          },
-          "Friday": {
-            "open": "16:30",
-            "close": "20:00"
-          },
-          "Saturday": {
-            "open": "16:30",
-            "close": "20:00"
-          },
-          "Sunday": {
-            "open": "16:30",
-            "close": "20:00"
-          }
-        }
-      }
-    },
-    "address": "150 Bluestone Drive",
-    "city_locality": "Harrisonburg",
-    "latitude": "38.43726",
-    "longitude": "-78.87193",
-    "postal_code": "22801",
-    "state_province": "VA"
-  },
-  "e-hall": {
-    "schedule": {
-      "Standard": {
-        "Breakfast": {
-          "Monday": {
-            "open": "07:00",
-            "close": "11:00"
-          },
-          "Tuesday": {
-            "open": "07:00",
-            "close": "11:00"
-          },
-          "Wednesday": {
-            "open": "07:00",
-            "close": "11:00"
-          },
-          "Thursday": {
-            "open": "07:00",
-            "close": "11:00"
-          },
-          "Friday": {
-            "open": "07:00",
-            "close": "11:00"
-          }
-        },
-        "Brunch": {
-          "Saturday": {
-            "open": "10:00",
-            "close": "16:30"
-          },
-          "Sunday": {
-            "open": "10:00",
-            "close": "16:30"
-          }
-        },
-        "Lunch": {
-          "Monday": {
-            "open": "11:00",
-            "close": "16:30"
-          },
-          "Tuesday": {
-            "open": "11:00",
-            "close": "16:30"
-          },
-          "Wednesday": {
-            "open": "11:00",
-            "close": "16:30"
-          },
-          "Thursday": {
-            "open": "11:00",
-            "close": "16:30"
-          },
-          "Friday": {
-            "open": "11:00",
-            "close": "16:30"
-          }
-        },
-        "Dinner": {
-          "Monday": {
-            "open": "16:30",
-            "close": "21:00"
-          },
-          "Tuesday": {
-            "open": "16:30",
-            "close": "21:00"
-          },
-          "Wednesday": {
-            "open": "16:30",
-            "close": "21:00"
-          },
-          "Thursday": {
-            "open": "16:30",
-            "close": "21:00"
-          },
-          "Friday": {
-            "open": "16:30",
-            "close": "20:00"
-          },
-          "Saturday": {
-            "open": "16:30",
-            "close": "20:00"
-          },
-          "Sunday": {
-            "open": "16:30",
-            "close": "20:00"
-          }
-        }
-      },
-      "Fall Break 2025": {
-        "Breakfast": {
-          "Monday": {
-            "open": "07:00",
-            "close": "11:00"
-          },
-          "Tuesday": {
-            "open": "07:00",
-            "close": "11:00"
-          }
-        },
-        "Lunch": {
-          "Monday": {
-            "open": "11:00",
-            "close": "16:30"
-          },
-          "Tuesday": {
-            "open": "11:00",
-            "close": "16:30"
-          }
-        },
-        "Dinner": {
-          "Monday": {
-            "open": "16:30",
-            "close": "21:00"
-          },
-          "Tuesday": {
-            "open": "16:30",
-            "close": "21:00"
-          },
-          "Sunday": {
-            "open": "16:30",
-            "close": "20:00"
-          }
-        }
-      }
-    },
-    "address": "1681 Carrier Drive",
-    "city_locality": "Harrisonburg",
-    "latitude": "38.43127",
-    "longitude": "-78.86154",
-    "postal_code": "22801",
-    "state_province": "VA"
-  },
   "bistro-1908": {
     "schedule": {
       "Standard": {
@@ -327,14 +25,22 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
-            "open": "11:00",
+            "open": "08:00",
             "close": "15:00"
           },
           "Tuesday": {
-            "open": "11:00",
+            "open": "08:00",
+            "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "15:00"
+          },
+          "Thursday": {
+            "open": "08:00",
             "close": "15:00"
           }
         }
@@ -373,114 +79,8 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
-          "Monday": {
-            "open": "11:00",
-            "close": "15:00"
-          },
-          "Tuesday": {
-            "open": "11:00",
-            "close": "15:00"
-          }
-        }
-      }
-    },
-    "address": "261 East Grace Street",
-    "city_locality": "Harrisonburg",
-    "latitude": "38.44006",
-    "longitude": "-78.86982",
-    "postal_code": "22801",
-    "state_province": "VA"
-  },
-  "corner-bistro": {
-    "schedule": {
-      "Standard": {
-        "All Day": {
-          "Monday": {
-            "open": "08:00",
-            "close": "18:00"
-          },
-          "Tuesday": {
-            "open": "08:00",
-            "close": "18:00"
-          },
-          "Wednesday": {
-            "open": "08:00",
-            "close": "18:00"
-          },
-          "Thursday": {
-            "open": "08:00",
-            "close": "18:00"
-          },
-          "Friday": {
-            "open": "08:00",
-            "close": "14:00"
-          },
-          "Saturday": {
-            "open": "08:00",
-            "close": "18:00"
-          }
-        }
-      },
-      "Fall Break 2025": {
-        "All Day": {
-          "Monday": {
-            "open": "08:00",
-            "close": "18:00"
-          },
-          "Tuesday": {
-            "open": "08:00",
-            "close": "14:00"
-          }
-        }
-      }
-    },
-    "address": "395 South High Street",
-    "city_locality": "Harrisonburg",
-    "latitude": "38.44431",
-    "longitude": "-78.87732",
-    "postal_code": "22801",
-    "state_province": "VA"
-  },
-  "festival-food-court": {
-    "schedule": {
-      "Standard": {
-        "All Day": {
-          "Monday": {
-            "open": "11:00",
-            "close": "20:00"
-          },
-          "Tuesday": {
-            "open": "11:00",
-            "close": "20:00"
-          },
-          "Wednesday": {
-            "open": "11:00",
-            "close": "20:00"
-          },
-          "Thursday": {
-            "open": "11:00",
-            "close": "20:00"
-          },
-          "Friday": {
-            "open": "11:00",
-            "close": "15:00"
-          }
-        }
-      }
-    },
-    "address": "1301 Carrier Drive",
-    "city_locality": "Harrisonburg",
-    "latitude": "38.43283",
-    "longitude": "-78.85937",
-    "postal_code": "22807",
-    "state_province": "VA"
-  },
-  "heirloom-pizza-in-dukes-dining": {
-    "schedule": {
-      "Standard": {
-        "Lunch": {
           "Monday": {
             "open": "11:00",
             "close": "15:00"
@@ -496,180 +96,6 @@
           "Thursday": {
             "open": "11:00",
             "close": "15:00"
-          },
-          "Friday": {
-            "open": "11:00",
-            "close": "15:00"
-          }
-        }
-      },
-      "Fall Break 2025": {
-        "All Day": {
-          "Monday": {
-            "open": "11:00",
-            "close": "15:00"
-          },
-          "Tuesday": {
-            "open": "11:00",
-            "close": "15:00"
-          }
-        }
-      }
-    },
-    "address": "261 East Grace Street",
-    "city_locality": "Harrisonburg",
-    "latitude": "38.44006",
-    "longitude": "-78.86982",
-    "postal_code": "22801",
-    "state_province": "VA"
-  },
-  "jmu-java-city-d-hall": {
-    "schedule": {
-      "Standard": {
-        "All Day": {
-          "Monday": {
-            "open": "08:00",
-            "close": "16:00"
-          },
-          "Tuesday": {
-            "open": "08:00",
-            "close": "16:00"
-          },
-          "Wednesday": {
-            "open": "08:00",
-            "close": "16:00"
-          },
-          "Thursday": {
-            "open": "08:00",
-            "close": "16:00"
-          },
-          "Friday": {
-            "open": "08:00",
-            "close": "15:00"
-          },
-          "Saturday": {
-            "open": "11:00",
-            "close": "17:00"
-          },
-          "Sunday": {
-            "open": "11:00",
-            "close": "17:00"
-          }
-        }
-      },
-      "Fall Break 2025": {
-        "All Day": {
-          "Monday": {
-            "open": "08:00",
-            "close": "16:00"
-          },
-          "Tuesday": {
-            "open": "08:00",
-            "close": "16:00"
-          }
-        }
-      }
-    },
-    "address": "150 Bluestone Drive",
-    "city_locality": "Harrisonburg",
-    "latitude": "38.43726",
-    "longitude": "-78.87193",
-    "postal_code": "22801",
-    "state_province": "VA"
-  },
-  "market-64": {
-    "schedule": {
-      "Standard": {
-        "All Day": {
-          "Monday": {
-            "open": "08:00",
-            "close": "20:00"
-          },
-          "Tuesday": {
-            "open": "08:00",
-            "close": "20:00"
-          },
-          "Wednesday": {
-            "open": "08:00",
-            "close": "20:00"
-          },
-          "Thursday": {
-            "open": "08:00",
-            "close": "20:00"
-          },
-          "Friday": {
-            "open": "08:00",
-            "close": "15:00"
-          },
-          "Saturday": {
-            "open": "12:00",
-            "close": "20:00"
-          },
-          "Sunday": {
-            "open": "12:00",
-            "close": "20:00"
-          }
-        }
-      },
-      "Fall Break 2025": {
-        "All Day": {
-          "Monday": {
-            "open": "08:00",
-            "close": "20:00"
-          },
-          "Tuesday": {
-            "open": "08:00",
-            "close": "20:00"
-          },
-          "Sunday": {
-            "open": "15:00",
-            "close": "20:00"
-          }
-        }
-      }
-    },
-    "address": "150 Bluestone Drive",
-    "city_locality": "Harrisonburg",
-    "latitude": "38.43726",
-    "longitude": "-78.87193",
-    "postal_code": "22801",
-    "state_province": "VA"
-  },
-  "tacodillo": {
-    "schedule": {
-      "Standard": {
-        "All Day": {
-          "Monday": {
-            "open": "11:00",
-            "close": "20:00"
-          },
-          "Tuesday": {
-            "open": "11:00",
-            "close": "20:00"
-          },
-          "Wednesday": {
-            "open": "11:00",
-            "close": "20:00"
-          },
-          "Thursday": {
-            "open": "11:00",
-            "close": "20:00"
-          },
-          "Friday": {
-            "open": "11:00",
-            "close": "19:00"
-          }
-        }
-      },
-      "Fall Break 2025": {
-        "All Day": {
-          "Monday": {
-            "open": "11:00",
-            "close": "20:00"
-          },
-          "Tuesday": {
-            "open": "11:00",
-            "close": "20:00"
           }
         }
       }
@@ -711,11 +137,19 @@
           },
           "Sunday": {
             "open": "16:00",
-            "close": "20:00"
+            "close": "22:00"
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/23-11/29": {
+        "All Day": {
+          "Sunday": {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "11:00",
@@ -725,8 +159,12 @@
             "open": "11:00",
             "close": "20:00"
           },
-          "Sunday": {
-            "open": "16:00",
+          "Wednesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "11:00",
             "close": "20:00"
           }
         }
@@ -766,6 +204,30 @@
           "Saturday": {
             "open": "11:00",
             "close": "22:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "19:00"
           }
         }
       }
@@ -811,7 +273,23 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/23-11/29": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "13:30"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "13:30"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "13:30"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "11:00",
@@ -823,22 +301,258 @@
           },
           "Wednesday": {
             "open": "11:00",
-            "close": "20:00"
+            "close": "22:00"
           },
           "Thursday": {
             "open": "11:00",
-            "close": "20:00"
+            "close": "22:00"
           },
           "Friday": {
             "open": "11:00",
+            "close": "19:00"
+          }
+        }
+      }
+    },
+    "address": "150 Bluestone Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43726",
+    "longitude": "-78.87193",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "corner-bistro": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "18:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "18:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "18:00"
+          },
+          "Thursday": {
+            "open": "08:00",
+            "close": "18:00"
+          },
+          "Friday": {
+            "open": "08:00",
+            "close": "14:00"
+          },
+          "Saturday": {
+            "open": "08:00",
+            "close": "18:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "18:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "18:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "18:00"
+          },
+          "Thursday": {
+            "open": "08:00",
+            "close": "14:00"
+          }
+        }
+      }
+    },
+    "address": "395 South High Street",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44431",
+    "longitude": "-78.87732",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "d-hall": {
+    "schedule": {
+      "Standard": {
+        "Breakfast": {
+          "Monday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Tuesday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Wednesday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Thursday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Friday": {
+            "open": "07:00",
+            "close": "11:00"
+          }
+        },
+        "Lunch": {
+          "Monday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "16:30"
+          }
+        },
+        "Brunch": {
+          "Saturday": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "Sunday": {
+            "open": "10:00",
+            "close": "16:30"
+          }
+        },
+        "Dinner": {
+          "Monday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Tuesday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Wednesday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Thursday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Friday": {
+            "open": "16:30",
             "close": "20:00"
           },
           "Saturday": {
-            "open": "11:00",
+            "open": "16:30",
             "close": "20:00"
           },
           "Sunday": {
+            "open": "16:30",
+            "close": "20:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
+        "Breakfast": {
+          "Monday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Tuesday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Wednesday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Thursday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Friday": {
+            "open": "07:00",
+            "close": "11:00"
+          }
+        },
+        "Lunch": {
+          "Monday": {
             "open": "11:00",
+            "close": "16:30"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "16:30"
+          }
+        },
+        "Dinner": {
+          "Monday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Tuesday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Wednesday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Thursday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Friday": {
+            "open": "16:30",
+            "close": "20:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/23-11/29": {
+        "Brunch": {
+          "Saturday": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "Sunday": {
+            "open": "10:00",
+            "close": "16:30"
+          }
+        },
+        "Dinner": {
+          "Saturday": {
+            "open": "16:30",
+            "close": "19:00"
+          },
+          "Sunday": {
+            "open": "16:30",
             "close": "20:00"
           }
         }
@@ -857,23 +571,51 @@
         "All Day": {
           "Monday": {
             "open": "11:00",
-            "close": "20:00"
+            "close": "19:00"
           },
           "Tuesday": {
             "open": "11:00",
-            "close": "20:00"
+            "close": "19:00"
           },
           "Wednesday": {
             "open": "11:00",
-            "close": "20:00"
+            "close": "19:00"
           },
           "Thursday": {
             "open": "11:00",
-            "close": "20:00"
+            "close": "19:00"
           },
           "Friday": {
-            "open": "11:00",
+            "open": "08:00",
             "close": "15:00"
+          },
+          "Saturday": {
+            "open": "12:00",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "11:00",
+            "close": "19:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "19:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "19:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "19:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "19:00"
           }
         }
       }
@@ -911,13 +653,21 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "08:00",
             "close": "15:00"
           },
           "Tuesday": {
+            "open": "08:00",
+            "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "15:00"
+          },
+          "Thursday": {
             "open": "08:00",
             "close": "15:00"
           }
@@ -929,6 +679,174 @@
     "latitude": "38.44017",
     "longitude": "-78.87145",
     "postal_code": "22807",
+    "state_province": "VA"
+  },
+  "e-hall": {
+    "schedule": {
+      "Standard": {
+        "Breakfast": {
+          "Monday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Tuesday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Wednesday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Thursday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Friday": {
+            "open": "07:00",
+            "close": "11:00"
+          }
+        },
+        "Lunch": {
+          "Monday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "16:30"
+          }
+        },
+        "Brunch": {
+          "Saturday": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "Sunday": {
+            "open": "10:00",
+            "close": "16:30"
+          }
+        },
+        "Dinner": {
+          "Monday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Tuesday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Wednesday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Thursday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Friday": {
+            "open": "16:30",
+            "close": "20:00"
+          },
+          "Saturday": {
+            "open": "16:30",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "16:30",
+            "close": "20:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/23-11/29": {
+        "Dinner": {
+          "Sunday": {
+            "open": "16:30",
+            "close": "20:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
+        "Breakfast": {
+          "Monday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Tuesday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Wednesday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Thursday": {
+            "open": "07:00",
+            "close": "11:00"
+          },
+          "Friday": {
+            "open": "07:00",
+            "close": "11:00"
+          }
+        },
+        "Lunch": {
+          "Monday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "16:30"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "16:30"
+          }
+        },
+        "Dinner": {
+          "Monday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Tuesday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Wednesday": {
+            "open": "16:30",
+            "close": "21:00"
+          },
+          "Thursday": {
+            "open": "16:30",
+            "close": "21:00"
+          }
+        }
+      }
+    },
+    "address": "1681 Carrier Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43127",
+    "longitude": "-78.86154",
+    "postal_code": "22801",
     "state_province": "VA"
   },
   "freshens-fresh-food-studio-in-d-hall": {
@@ -957,13 +875,21 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "11:00",
             "close": "21:00"
           },
           "Tuesday": {
+            "open": "11:00",
+            "close": "21:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "21:00"
+          },
+          "Thursday": {
             "open": "11:00",
             "close": "21:00"
           }
@@ -1003,13 +929,21 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "11:00",
             "close": "19:30"
           },
           "Tuesday": {
+            "open": "11:00",
+            "close": "19:30"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "19:30"
+          },
+          "Thursday": {
             "open": "11:00",
             "close": "19:30"
           }
@@ -1020,6 +954,64 @@
     "city_locality": "Harrisonburg",
     "latitude": "38.43356",
     "longitude": "-78.86755",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "heirloom-pizza-in-dukes-dining": {
+    "schedule": {
+      "Standard": {
+        "Lunch": {
+          "Monday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "15:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "14:00"
+          }
+        }
+      }
+    },
+    "address": "261 East Grace Street",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44006",
+    "longitude": "-78.86982",
     "postal_code": "22801",
     "state_province": "VA"
   },
@@ -1048,16 +1040,24 @@
             "close": "20:00"
           },
           "Saturday": {
-            "open": "11:00",
+            "open": "16:00",
             "close": "20:00"
           },
           "Sunday": {
-            "open": "11:00",
+            "open": "16:00",
             "close": "20:00"
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/23-11/29": {
+        "All Day": {
+          "Sunday": {
+            "open": "16:00",
+            "close": "20:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "11:00",
@@ -1067,8 +1067,12 @@
             "open": "11:00",
             "close": "20:00"
           },
-          "Sunday": {
-            "open": "16:00",
+          "Wednesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "11:00",
             "close": "20:00"
           }
         }
@@ -1079,6 +1083,72 @@
     "latitude": "38.4357",
     "longitude": "-78.8596",
     "postal_code": "22807",
+    "state_province": "VA"
+  },
+  "jmu-java-city-d-hall": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "16:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "16:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "16:00"
+          },
+          "Thursday": {
+            "open": "08:00",
+            "close": "16:00"
+          },
+          "Friday": {
+            "open": "08:00",
+            "close": "15:00"
+          },
+          "Saturday": {
+            "open": "11:00",
+            "close": "17:00"
+          },
+          "Sunday": {
+            "open": "11:00",
+            "close": "17:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "16:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "16:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "16:00"
+          },
+          "Thursday": {
+            "open": "08:00",
+            "close": "16:00"
+          },
+          "Friday": {
+            "open": "08:00",
+            "close": "14:00"
+          }
+        }
+      }
+    },
+    "address": "150 Bluestone Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43726",
+    "longitude": "-78.87193",
+    "postal_code": "22801",
     "state_province": "VA"
   },
   "jemmy-s-corner-market-and-pod": {
@@ -1107,19 +1177,23 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "17:00",
-            "close": "12:00"
+            "close": "00:00"
           },
           "Tuesday": {
             "open": "17:00",
-            "close": "12:00"
+            "close": "00:00"
           },
-          "Sunday": {
+          "Wednesday": {
             "open": "17:00",
-            "close": "12:00"
+            "close": "00:00"
+          },
+          "Thursday": {
+            "open": "17:00",
+            "close": "00:00"
           }
         }
       }
@@ -1157,7 +1231,7 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "07:30",
@@ -1166,6 +1240,18 @@
           "Tuesday": {
             "open": "07:30",
             "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "07:30",
+            "close": "15:00"
+          },
+          "Thursday": {
+            "open": "07:30",
+            "close": "15:00"
+          },
+          "Friday": {
+            "open": "07:30",
+            "close": "13:00"
           }
         }
       }
@@ -1211,7 +1297,15 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/23-11/29": {
+        "All Day": {
+          "Sunday": {
+            "open": "16:00",
+            "close": "20:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "11:00",
@@ -1221,8 +1315,12 @@
             "open": "11:00",
             "close": "20:00"
           },
-          "Sunday": {
-            "open": "16:00",
+          "Wednesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "11:00",
             "close": "20:00"
           }
         }
@@ -1233,6 +1331,76 @@
     "latitude": "38.4357",
     "longitude": "-78.8596",
     "postal_code": "22807",
+    "state_province": "VA"
+  },
+  "market-64": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "08:00",
+            "close": "15:00"
+          },
+          "Saturday": {
+            "open": "12:00",
+            "close": "20:00"
+          },
+          "Sunday": {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/23-11/29": {
+        "All Day": {
+          "Sunday": {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
+        "All Day": {
+          "Monday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "08:00",
+            "close": "20:00"
+          }
+        }
+      }
+    },
+    "address": "150 Bluestone Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.43726",
+    "longitude": "-78.87193",
+    "postal_code": "22801",
     "state_province": "VA"
   },
   "merge-coffee": {
@@ -1279,19 +1447,19 @@
         "All Day": {
           "Monday": {
             "open": "07:30",
-            "close": "20:00"
+            "close": "00:00"
           },
           "Tuesday": {
             "open": "07:30",
-            "close": "20:00"
+            "close": "00:00"
           },
           "Wednesday": {
             "open": "07:30",
-            "close": "20:00"
+            "close": "00:00"
           },
           "Thursday": {
             "open": "07:30",
-            "close": "20:00"
+            "close": "00:00"
           },
           "Friday": {
             "open": "07:30",
@@ -1303,39 +1471,51 @@
           },
           "Sunday": {
             "open": "14:00",
-            "close": "19:00"
+            "close": "00:00"
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/23-11/29": {
         "All Day": {
           "Monday": {
-            "open": "07:30",
-            "close": "20:00"
+            "open": "08:00",
+            "close": "13:30"
           },
           "Tuesday": {
-            "open": "07:30",
-            "close": "20:00"
+            "open": "08:00",
+            "close": "13:30"
           },
           "Wednesday": {
             "open": "08:00",
-            "close": "14:00"
-          },
-          "Thursday": {
-            "open": "08:00",
-            "close": "14:00"
-          },
-          "Friday": {
-            "open": "08:00",
-            "close": "14:00"
-          },
-          "Saturday": {
-            "open": "14:00",
-            "close": "19:00"
+            "close": "13:30"
           },
           "Sunday": {
             "open": "14:00",
-            "close": "19:00"
+            "close": "00:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "00:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "00:00"
+          },
+          "Wednesday": {
+            "open": "07:30",
+            "close": "00:00"
+          },
+          "Thursday": {
+            "open": "07:30",
+            "close": "00:00"
+          },
+          "Friday": {
+            "open": "07:30",
+            "close": "17:00"
           }
         }
       }
@@ -1352,35 +1532,43 @@
       "Standard": {
         "All Day": {
           "Monday": {
-            "open": "10:00",
+            "open": "09:30",
             "close": "16:00"
           },
           "Tuesday": {
-            "open": "10:00",
+            "open": "09:30",
             "close": "16:00"
           },
           "Wednesday": {
-            "open": "10:00",
+            "open": "09:30",
             "close": "16:00"
           },
           "Thursday": {
-            "open": "10:00",
+            "open": "09:30",
             "close": "16:00"
           },
           "Friday": {
-            "open": "10:00",
+            "open": "09:30",
             "close": "16:00"
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
-            "open": "10:00",
+            "open": "09:30",
             "close": "16:00"
           },
           "Tuesday": {
-            "open": "10:00",
+            "open": "09:30",
+            "close": "16:00"
+          },
+          "Wednesday": {
+            "open": "09:30",
+            "close": "16:00"
+          },
+          "Thursday": {
+            "open": "09:30",
             "close": "16:00"
           }
         }
@@ -1419,19 +1607,23 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "17:00",
-            "close": "12:00"
+            "close": "00:00"
           },
           "Tuesday": {
             "open": "17:00",
-            "close": "12:00"
+            "close": "00:00"
           },
-          "Sunday": {
+          "Wednesday": {
             "open": "17:00",
-            "close": "12:00"
+            "close": "00:00"
+          },
+          "Thursday": {
+            "open": "17:00",
+            "close": "00:00"
           }
         }
       }
@@ -1469,13 +1661,21 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "07:30",
             "close": "14:00"
           },
           "Tuesday": {
+            "open": "07:30",
+            "close": "14:00"
+          },
+          "Wednesday": {
+            "open": "07:30",
+            "close": "14:00"
+          },
+          "Thursday": {
             "open": "07:30",
             "close": "14:00"
           }
@@ -1515,7 +1715,7 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "11:00",
@@ -1524,6 +1724,18 @@
           "Tuesday": {
             "open": "11:00",
             "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "14:00"
           }
         }
       }
@@ -1569,7 +1781,7 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "07:30",
@@ -1581,15 +1793,15 @@
           },
           "Wednesday": {
             "open": "07:30",
-            "close": "15:00"
+            "close": "19:00"
           },
           "Thursday": {
             "open": "07:30",
-            "close": "15:00"
+            "close": "19:00"
           },
           "Friday": {
             "open": "07:30",
-            "close": "15:00"
+            "close": "14:00"
           }
         }
       }
@@ -1627,13 +1839,21 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/19": {
         "All Day": {
           "Monday": {
             "open": "08:00",
             "close": "14:00"
           },
           "Tuesday": {
+            "open": "08:00",
+            "close": "14:00"
+          },
+          "Wednesday": {
+            "open": "08:00",
+            "close": "14:00"
+          },
+          "Thursday": {
             "open": "08:00",
             "close": "14:00"
           }
@@ -1645,6 +1865,72 @@
     "latitude": "38.43127",
     "longitude": "-78.86154",
     "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "starbucks-r-at-carrier-library": {
+    "schedule": {
+      "Standard": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "21:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "21:00"
+          },
+          "Wednesday": {
+            "open": "07:30",
+            "close": "21:00"
+          },
+          "Thursday": {
+            "open": "07:30",
+            "close": "21:00"
+          },
+          "Friday": {
+            "open": "07:30",
+            "close": "17:00"
+          },
+          "Saturday": {
+            "open": "09:00",
+            "close": "16:00"
+          },
+          "Sunday": {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
+        "All Day": {
+          "Monday": {
+            "open": "07:30",
+            "close": "21:00"
+          },
+          "Tuesday": {
+            "open": "07:30",
+            "close": "21:00"
+          },
+          "Wednesday": {
+            "open": "07:30",
+            "close": "21:00"
+          },
+          "Thursday": {
+            "open": "07:30",
+            "close": "21:00"
+          },
+          "Friday": {
+            "open": "07:30",
+            "close": "17:00"
+          }
+        }
+      }
+    },
+    "address": "880 Madison Drive",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.4388859",
+    "longitude": "-78.8748702",
+    "postal_code": "22807",
     "state_province": "VA"
   },
   "starbucks-at-rose-library": {
@@ -1681,7 +1967,7 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "07:30",
@@ -1690,6 +1976,18 @@
           "Tuesday": {
             "open": "07:30",
             "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "07:30",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "07:30",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "07:30",
+            "close": "14:00"
           }
         }
       }
@@ -1707,31 +2005,31 @@
         "Overnight": {
           "Monday": {
             "open": "22:00",
-            "close": "12:00"
+            "close": "00:00"
           },
           "Tuesday": {
             "open": "22:00",
-            "close": "12:00"
+            "close": "00:00"
           },
           "Wednesday": {
             "open": "22:00",
-            "close": "12:00"
+            "close": "00:00"
           },
           "Thursday": {
             "open": "22:00",
-            "close": "12:00"
+            "close": "00:00"
           },
           "Friday": {
             "open": "22:00",
-            "close": "12:00"
+            "close": "00:00"
           },
           "Saturday": {
             "open": "22:00",
-            "close": "12:00"
+            "close": "00:00"
           },
           "Sunday": {
             "open": "22:00",
-            "close": "12:00"
+            "close": "00:00"
           }
         },
         "All Day": {
@@ -1761,6 +2059,52 @@
           },
           "Sunday": {
             "open": "17:00",
+            "close": "22:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/23-11/29": {
+        "All Day": {
+          "Sunday": {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        }
+      },
+      "Thanksgiving 11/16-11/22": {
+        "Overnight": {
+          "Monday": {
+            "open": "22:00",
+            "close": "00:00"
+          },
+          "Tuesday": {
+            "open": "22:00",
+            "close": "00:00"
+          },
+          "Wednesday": {
+            "open": "22:00",
+            "close": "00:00"
+          },
+          "Thursday": {
+            "open": "22:00",
+            "close": "00:00"
+          }
+        },
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "22:00"
+          },
+          "Thursday": {
+            "open": "11:00",
             "close": "22:00"
           }
         }
@@ -1799,13 +2143,21 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "11:00",
             "close": "15:00"
           },
           "Tuesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          "Thursday": {
             "open": "11:00",
             "close": "15:00"
           }
@@ -1819,51 +2171,9 @@
     "postal_code": "22801",
     "state_province": "VA"
   },
-  "tenders-love-chicken": {
+  "tacodillo": {
     "schedule": {
       "Standard": {
-        "Lunch": {
-          "Monday": {
-            "open": "11:00",
-            "close": "16:00"
-          },
-          "Tuesday": {
-            "open": "11:00",
-            "close": "16:00"
-          },
-          "Wednesday": {
-            "open": "11:00",
-            "close": "16:00"
-          },
-          "Thursday": {
-            "open": "11:00",
-            "close": "16:00"
-          },
-          "Friday": {
-            "open": "11:00",
-            "close": "15:00"
-          }
-        },
-        "Dinner": {
-          "Monday": {
-            "open": "16:00",
-            "close": "20:00"
-          },
-          "Tuesday": {
-            "open": "16:00",
-            "close": "20:00"
-          },
-          "Wednesday": {
-            "open": "16:00",
-            "close": "20:00"
-          },
-          "Thursday": {
-            "open": "16:00",
-            "close": "20:00"
-          }
-        }
-      },
-      "Fall Break 2025": {
         "All Day": {
           "Monday": {
             "open": "11:00",
@@ -1872,10 +2182,50 @@
           "Tuesday": {
             "open": "11:00",
             "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Friday": {
+            "open": "11:00",
+            "close": "19:00"
+          }
+        }
+      },
+      "Thanksgiving Break 11/16-11/22": {
+        "All Day": {
+          "Monday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Tuesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "20:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "20:00"
           }
         }
       }
     },
+    "address": "261 East Grace Street",
+    "city_locality": "Harrisonburg",
+    "latitude": "38.44006",
+    "longitude": "-78.86982",
+    "postal_code": "22801",
+    "state_province": "VA"
+  },
+  "tenders-love-chicken": {
     "address": "645 University Boulevard",
     "city_locality": "Harrisonburg",
     "latitude": "38.43044",
@@ -1909,15 +2259,23 @@
           }
         }
       },
-      "Fall Break 2025": {
+      "Thanksgiving Break 11/16-11/22": {
         "All Day": {
           "Monday": {
             "open": "11:00",
-            "close": "12:00"
+            "close": "00:00"
           },
           "Tuesday": {
             "open": "11:00",
-            "close": "12:00"
+            "close": "00:00"
+          },
+          "Wednesday": {
+            "open": "11:00",
+            "close": "00:00"
+          },
+          "Thursday": {
+            "open": "11:00",
+            "close": "00:00"
           }
         }
       }

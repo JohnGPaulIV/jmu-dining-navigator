@@ -5,6 +5,12 @@ import faker
 import psycopg
 import random 
 import datetime
+import os
+
+HOST = os.environ.get("HUNGRY_HOST")
+PASSWORD = os.environ.get("HUNGRY_PASSWORD")
+TEAM = os.environ.get("HUNGRY_TEAM")
+
 
 NUM_USERS = 100
 NUM_DIETARY = 5
@@ -16,7 +22,7 @@ DAYS_OF_OPERATION = 365
 NUM_WEB_LOGS_PER_LOC = 5
 
 # Connect to the database
-con = psycopg.connect(host="localhost", port="5432", user="team25", dbname="team25")
+con = psycopg.connect(host=HOST, port="5432", user=TEAM, dbname=TEAM, password=PASSWORD)
 cur = con.cursor()
 
 fake = faker.Faker()

@@ -435,3 +435,27 @@ dl.dl-horizontal dd,
     border-radius: 10px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
+
+.location-header {
+    display: flow-root;
+    padding: 20px 30px;
+    overflow-wrap: anywhere;
+}
+
+.location-header-image {
+    float: right;
+    width: 420px;
+    max-width: 45%;
+    height: auto;
+    margin: 0 0 20px 30px;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .location-header-image {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+}

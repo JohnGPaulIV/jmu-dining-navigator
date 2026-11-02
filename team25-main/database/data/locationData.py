@@ -92,7 +92,6 @@ query getLocation($campus_url_key: String!, $location_url_key: String!) {
     aemAttributes {
       name
       featuredLocation
-      featuredPriority
       teaserAssetRef {
         ... on AEM_ImageRef {
           _dynamicUrl
@@ -157,14 +156,6 @@ query getLocation($campus_url_key: String!, $location_url_key: String!) {
         html
         __typename
       }
-      menuAssetRef {
-        ... on AEM_DocumentRef {
-          _id
-          _path
-          __typename
-        }
-        __typename
-      }
       hoursOfOperation {
         _path
         schedule
@@ -193,7 +184,7 @@ headers = {
 }
 
 # Load base locations list
-with open("locations.json", "r", encoding="utf-8") as f:
+with open("database/pgsql/locations.json", "r", encoding="utf-8") as f:
     location_full_data = json.load(f)
     locations = [loc for loc in location_full_data.keys()]
 
@@ -237,7 +228,7 @@ for loc in locations:
     location_data[loc].setdefault("directions", "")
 
     location_data[loc]["directions"] = base_data["wayfindingInstructions"]
-    base_image_url_write = "GP/team25/webapp/images/"
+    base_image_url_write = "webapp/static/images/future"
 
     periods_at = data["data"]["getLocation"]["commerceAttributes"]["meal_periods"]
     location_data[loc].setdefault("stations", {})
@@ -299,7 +290,7 @@ for loc in locations:
 pprint.pprint(location_data)
 
 # Save full location data to JSON
-with open("location_data.json", "w", encoding="utf-8") as f:
+with open("database/pgsql/location_data.json", "w", encoding="utf-8") as f:
     json.dump(location_data, f, ensure_ascii=False, indent=2)
 
 print("Saved JSON to location_d_hall.json")

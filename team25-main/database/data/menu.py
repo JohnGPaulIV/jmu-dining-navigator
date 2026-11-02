@@ -102,161 +102,24 @@ query getLocationRecipes(
     }
     products {
       items {
-        product {
-          attribute_set_id
-          sku
-          add_to_cart_allowed
-          canonical_url
-          created_at
-          custom_attributes {
-            code
-            value
-            __typename
-          }
-          description {
-            html
-            __typename
-          }
-          gift_message_available
-          uid
-          meta_description
-          meta_keyword
-          meta_title
+        sku
+        name
+        description
+        shortDescription
+        attributes {
           name
-          new_from_date
-          new_to_date
-          price_range {
-            maximum_price {
-              discount {
-                amount_off
-                percent_off
-                __typename
-              }
-              final_price {
-                currency
-                value
-                __typename
-              }
-              fixed_product_taxes {
-                amount {
-                  currency
-                  value
-                  __typename
-                }
-                label
-                __typename
-              }
-              regular_price {
-                currency
-                value
-                __typename
-              }
-              __typename
-            }
-            minimum_price {
-              discount {
-                amount_off
-                percent_off
-                __typename
-              }
-              final_price {
-                currency
-                value
-                __typename
-              }
-              fixed_product_taxes {
-                amount {
-                  currency
-                  value
-                  __typename
-                }
-                label
-                __typename
-              }
-              regular_price {
-                currency
-                value
-                __typename
-              }
-              __typename
-            }
-            __typename
-          }
-          short_description {
-            html
-            __typename
-          }
-          small_image {
-            disabled
-            label
-            position
-            url
-            __typename
-          }
-          thumbnail {
-            disabled
-            label
-            position
-            url
-            __typename
-          }
-          updated_at
+          label
+          value
           __typename
         }
-        productView {
-          sku
-          images {
-            label
-            roles
-            url
-            __typename
-          }
-          attributes {
-            name
-            value
-            __typename
-          }
-          ... on Search_ComplexProductView {
-            attributes {
-              name
-              value
-              __typename
-            }
-            options {
-              title
-              values {
-                id
-                title
-                ... on Search_ProductViewOptionValueProduct {
-                  product {
-                    name
-                    sku
-                    attributes {
-                      name
-                      value
-                      __typename
-                    }
-                    __typename
-                  }
-                  __typename
-                }
-                __typename
-              }
-              __typename
-            }
-            __typename
-          }
+        images {
+          label
+          roles
+          url
           __typename
         }
         __typename
       }
-      page_info {
-        current_page
-        page_size
-        total_pages
-        __typename
-      }
-      total_count
       __typename
     }
     __typename
@@ -265,10 +128,10 @@ query getLocationRecipes(
 """
 
 # ========== LOAD PREVIOUSLY-SAVED SUPPORTING DATA ==========
-with open("locations.json", "r") as f:
+with open("database/pgsql/locations.json", "r") as f:
     locs = [l for l in json.load(f).keys()]
 
-with open("location_data.json", "r") as f:
+with open("database/pgsql/location_data.json", "r") as f:
     periods = json.load(f)
 
 # ========== REQUEST HEADERS ==========
@@ -351,17 +214,17 @@ for l in locs:
             for item in base_menu_items:
                 
                 menu[l][d.year][curr_month][p].setdefault("items", {})
-                curr_item = item["product"]["sku"]
+                curr_item = item["sku"]
 
                 if curr_item in menu[l][d.year][curr_month][p]["items"]:
                     continue
 
                 menu[l][d.year][curr_month][p]["items"].setdefault(curr_item, {})
-                menu[l][d.year][curr_month][p]["items"][curr_item]["name"] = item["product"]["name"]
+                menu[l][d.year][curr_month][p]["items"][curr_item]["name"] = item["name"]
 
-                item_info = item["productView"]["attributes"]
+                item_info = (item.get("attributes") or [])
                 curr_item_dict = menu[l][d.year][curr_month][p]["items"][curr_item]
-                attrs = item["productView"]["attributes"]
+                attrs = (item.get("attributes") or [])
 
                 for attr in attrs:
                     if attr["name"] in attributes:
@@ -402,6 +265,6 @@ for l in locs:
 print(len(i_check))
 print(not_processed)
 
-with open("menu.json", "w") as f:
+with open("database/pgsql/menu.json", "w") as f:
     json.dump(menu, f, indent=2)
     

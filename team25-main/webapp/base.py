@@ -66,11 +66,18 @@ class MapView(BaseView):
 class PlaceView(BaseView):
     route_base = "/place"
 
-    @expose("/<location_id>")
-    def show_location(self, location_id):
-        location = db.session.get(Location, location_id)
-        if not location:
+    @expose("/<location_slug>")
+    def show_location(self, location_slug):
+        location = db.session.execute(
+            db.select(Location).where(
+                Location.hall_name == location_slug
+            )
+        ).scalar_one_or_none()
+
+        if location is None:
             return "Location not found", 404
+
+        location_id = location.location_id
 
         # Custom SQL query
         sql = text("""
@@ -123,9 +130,18 @@ class GraphView(BaseView):
 
     @expose("/")
     def graph_page(self):
+        d_hall = db.session.execute(
+            db.select(Location).where(Location.hall_name == "d-hall")
+        ).scalar_one_or_none()
 
-        hall_id = 1  # fixed hall for demo
-        hall_id2 = 0
+        e_hall = db.session.execute(
+            db.select(Location).where(Location.hall_name == "e-hall")
+        ).scalar_one_or_none()
+
+        if d_hall is None or e_hall is None:
+            return "Dining hall data is missing. Import locations first.", 404
+        hall_id = d_hall.location_id  # fixed hall for demo
+        hall_id2 = e_hall.location_id
         #generates
 
 

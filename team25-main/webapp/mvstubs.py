@@ -1,18 +1,21 @@
 """Generate a basic ModelView class for each table in the database."""
 
 import psycopg
-import socket
+import os
 
-TEAM="team25"
+# try:
+#     socket.gethostbyname("data.cs.jmu.edu")
+#     HOST = "data.cs.jmu.edu"
+# except socket.gaierror:
+#     HOST = "localhost"
 
-try:
-    socket.gethostbyname("data.cs.jmu.edu")
-    HOST = "data.cs.jmu.edu"
-except socket.gaierror:
-    HOST = "localhost"
+HOST = os.environ.get("HUNGRY_HOST")
+PASSWORD = os.environ.get("HUNGRY_PASSWORD")
+TEAM = os.environ.get("HUNGRY_TEAM")
+
 
 # Get all tables and their columns
-with psycopg.connect(host=HOST, user=TEAM, dbname=TEAM, password="Cycl4lymL3u1LokS") as conn:
+with psycopg.connect(host=HOST, user=TEAM, dbname=TEAM, password=PASSWORD) as conn:
     with conn.cursor() as cur:
         cur.execute("""
             SELECT table_name, column_name
